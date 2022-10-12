@@ -2,7 +2,7 @@
   <div>
     <Navbar />
 
-    <Container>
+    <Container class="mt-14">
       <div class="grid grid-cols-8 gap-10 py-8">
         <SideMenu />
 
