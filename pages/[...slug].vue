@@ -4,7 +4,9 @@
 
     <Container class="mt-14">
       <div class="grid grid-cols-8 gap-10 py-8">
-        <SideMenu />
+        <aside class="col-span-2">
+          <SideMenu />
+        </aside>
 
         <main class="col-span-6">
           <ContentDoc data-vx-content />
