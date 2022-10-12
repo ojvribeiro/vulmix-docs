@@ -1,7 +1,7 @@
 <template>
   <aside class="col-span-2">
     <div class="side-menu">
-      <h5>Introduction</h5>
+      <h5 class="mt-0">Introduction</h5>
 
       <ul>
         <li>
