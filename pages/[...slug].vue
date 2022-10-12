@@ -3,7 +3,7 @@
     <Navbar />
 
     <Container>
-      <div class="grid grid-cols-8 gap-6 py-8">
+      <div class="grid grid-cols-8 gap-10 py-8">
         <SideMenu />
 
         <main class="col-span-6">
