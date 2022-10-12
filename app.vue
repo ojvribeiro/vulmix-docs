@@ -1,5 +1,7 @@
 <template>
   <div class="bg-vx-grey-400 text-white min-h-screen">
+    <NuxtLoadingIndicator />
+
     <NuxtPage />
   </div>
 </template>
