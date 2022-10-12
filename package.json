@@ -9,6 +9,9 @@
   "devDependencies": {
     "@nuxt/content": "^2.1.0",
     "@nuxtjs/tailwindcss": "^5.3.5",
-    "nuxt": "^3.0.0-rc.10"
+    "nuxt": "^3.0.0-rc.10",
+    "nuxt-icon": "^0.1.6",
+    "sass": "^1.55.0",
+    "sass-loader": "10"
   }
 }
