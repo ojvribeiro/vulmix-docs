@@ -110,6 +110,26 @@
       position: sticky;
       top: 100px;
 
+      &::-webkit-scrollbar {
+        @apply bg-vx-grey-400;
+
+        width: 8px;
+
+        &-thumb {
+          @apply bg-vx-grey-300/20;
+
+          border-radius: 4px;
+        }
+      }
+
+      &:hover {
+        &::-webkit-scrollbar {
+          &-thumb {
+            @apply bg-vx-grey-300;
+          }
+        }
+      }
+
       h5 {
         font-weight: 400;
       }
