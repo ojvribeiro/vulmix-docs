@@ -1,6 +1,8 @@
 <template>
   <div class="mx-auto w-full py-8 px-4 sm:px-6 lg:px-8 max-w-7xl">
     <div class="grid grid-cols-8 gap-6">
+      <SideMenu />
+
       <main class="col-span-6">
         <ContentDoc data-vx-content />
       </main>
