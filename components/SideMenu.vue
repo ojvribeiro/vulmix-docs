@@ -107,8 +107,9 @@
 <style lang="scss" scoped>
   aside {
     .side-menu {
-      position: sticky;
-      top: 100px;
+      @apply sticky pb-14 top-20 overflow-y-scroll;
+
+      height: calc(100vh - 110px);
 
       &::-webkit-scrollbar {
         @apply bg-vx-grey-400;
