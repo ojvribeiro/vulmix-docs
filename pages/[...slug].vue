@@ -1,19 +1,54 @@
 <template>
-  <div class="grid grid-cols-12 gap-4">
-    <aside class="col-span-2 col-start-4">
-      wdwd
-    </aside>
-
-    <main>
-      <ContentDoc />
-    </main>
+  <div class="mx-auto w-full py-8 px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <div class="grid grid-cols-8 gap-6">
+      <main class="col-span-6">
+        <ContentDoc data-vx-content />
+      </main>
+    </div>
   </div>
 </template>
 
-<style>
-  pre {
-    background-color: #333333;
-    padding: 16px;
-    border-radius: 8px;
+<style lang="scss">
+  [data-vx-content] {
+
+    pre, p>code {
+      background-color: rgba(#fff, 15%);
+    }
+
+    pre {
+      @apply rounded-xl px-4 mb-6;
+    }
+
+    code {
+      @apply rounded p-1;
+    }
+
+    h1 {
+      @apply text-5xl;
+    }
+
+    h2 {
+      @apply text-4xl;
+    }
+
+    h3 {
+      @apply text-3xl;
+    }
+
+    h4 {
+      @apply text-2xl;
+    }
+
+    h5 {
+      @apply text-xl;
+    }
+
+    h6 {
+      @apply text-lg;
+    }
+
+    p {
+      @apply text-lg mb-6;
+    }
   }
 </style>
