@@ -11,6 +11,17 @@
 
   body {
     font-family: 'DM Sans', sans-serif;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      @apply bg-vx-grey-400;
+
+      width: 16px;
+
+      &-thumb {
+        @apply bg-vx-grey-300;
+      }
+    }
 
     h1,
     h2,
