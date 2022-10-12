@@ -2,7 +2,7 @@
   <div>
     <Navbar />
 
-    <div class="mx-auto w-full py-8 px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <Container>
       <div class="grid grid-cols-8 gap-6 py-8">
         <SideMenu />
 
@@ -10,7 +10,7 @@
           <ContentDoc data-vx-content />
         </main>
       </div>
-    </div>
+    </Container>
   </div>
 </template>
 
