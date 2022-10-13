@@ -6,7 +6,7 @@
       <div class="flex items-center justify-between h-full py-3">
         <NavbarLogo />
 
-        <div class="flex items-center gap-6">
+        <div class="hidden md:flex items-center gap-6">
           <div>
             <ul class="nav-menu flex gap-4">
               <li>
