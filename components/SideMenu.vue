@@ -149,7 +149,7 @@
               color: #fff;
             }
 
-            &.router-link-active {
+            &.router-link-exact-active {
               @apply border-vx-brand-pink text-vx-brand-green;
               border-left-width: 2px;
               border-left-style: solid;
