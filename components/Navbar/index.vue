@@ -47,6 +47,10 @@
     li {
       a {
         @apply text-white hover:text-white/70;
+
+        &.router-link-exact-active {
+          @apply text-vx-brand-green;
+        }
       }
     }
   }
