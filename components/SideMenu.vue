@@ -4,11 +4,11 @@
 
     <ul>
       <li>
-        <NuxtLink to="/get-started" class="active">Get started</NuxtLink>
+        <NuxtLink to="/guide/get-started">Get started</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/about">Why Vulmix?</NuxtLink>
+        <NuxtLink to="/guide/why-vulmix">Why Vulmix?</NuxtLink>
       </li>
     </ul>
 
@@ -16,19 +16,19 @@
 
     <ul>
       <li>
-        <NuxtLink to="#">&lt;Image&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/image">&lt;Image&gt;</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="#">&lt;Head&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/head">&lt;Head&gt;</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="#">&lt;Icon&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/icon">&lt;Icon&gt;</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="#">&lt;Layout&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/layout">&lt;Layout&gt;</NuxtLink>
       </li>
     </ul>
 
@@ -36,7 +36,7 @@
 
     <ul>
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/_dist">
           <div class="flex items-center gap-2">
             <Icon name="bi:folder" />
 
@@ -46,7 +46,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/assets">
           <div class="flex items-center gap-2">
             <Icon name="bi:folder" />
             <span>assets</span>
@@ -55,7 +55,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/components">
           <div class="flex items-center gap-2">
             <Icon name="bi:folder" />
             <span>components</span>
@@ -64,7 +64,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/layouts">
           <div class="flex items-center gap-2">
             <Icon name="bi:folder" />
             <span>layouts</span>
@@ -73,7 +73,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/pages">
           <div class="flex items-center gap-2">
             <Icon name="bi:folder" />
             <span>pages</span>
@@ -82,7 +82,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/app.vue">
           <div class="flex items-center gap-2">
             <Icon name="fa6-brands:vuejs" />
             <span>app.vue</span>
@@ -91,7 +91,7 @@
       </li>
 
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/guide/structure/webpack.mix.js">
           <div class="flex items-center gap-2">
             <Icon name="mdi:webpack" />
             <span>webpack.mix.js</span>
@@ -149,7 +149,7 @@
               color: #fff;
             }
 
-            &.active {
+            &.router-link-active {
               @apply border-vx-brand-pink text-vx-brand-green;
               border-left-width: 2px;
               border-left-style: solid;
