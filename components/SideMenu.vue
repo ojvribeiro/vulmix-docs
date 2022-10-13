@@ -110,9 +110,11 @@
       height: calc(100vh - 110px);
 
       &::-webkit-scrollbar {
-        @apply bg-vx-grey-400;
-
         width: 8px;
+
+        &-track {
+          @apply bg-transparent;
+        }
 
         &-thumb {
           @apply bg-vx-grey-300/20;

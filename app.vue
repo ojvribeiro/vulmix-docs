@@ -18,9 +18,11 @@
     overflow-y: scroll;
 
     &::-webkit-scrollbar {
-      @apply bg-vx-grey-400;
-
       width: 16px;
+
+      &-track {
+        @apply bg-transparent;
+      }
 
       &-thumb {
         @apply bg-vx-grey-300;
