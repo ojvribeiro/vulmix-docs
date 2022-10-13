@@ -10,15 +10,15 @@
           <div>
             <ul class="nav-menu flex gap-4">
               <li>
-                <NuxtLink to="#">Guide</NuxtLink>
+                <NuxtLink to="/guide/get-started">Guide</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="#">FAQs</NuxtLink>
+                <NuxtLink to="/faq">FAQs</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="#">Showcases</NuxtLink>
+                <NuxtLink to="/showcase">Showcase</NuxtLink>
               </li>
             </ul>
           </div>
