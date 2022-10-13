@@ -4,7 +4,9 @@
   >
     <Container class="h-full">
       <div class="flex items-center justify-between h-full py-3">
-        <NavbarLogo />
+        <NuxtLink to="/" class="h-full">
+          <NavbarLogo />
+        </NuxtLink>
 
         <div class="hidden md:flex items-center gap-6">
           <div>
