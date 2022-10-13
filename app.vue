@@ -2,6 +2,8 @@
   <div>
     <NuxtLoadingIndicator />
 
+    <Navbar />
+
     <NuxtPage />
   </div>
 </template>
