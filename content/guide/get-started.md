@@ -38,7 +38,7 @@ yarn serve
 
 This should serve your project onto the port `8000` _without_ fast refresh.
 
-> ⚠️ You need to `npm run build` in a separate terminal to recompile your files without serving them.
+<icon name="ph:warning-octagon-duotone"></icon> You need to `npm run build` in a separate terminal to recompile your files without serving them.
 
 ## Preparing for production
 
