@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 left-0 w-full h-16 bg-vx-grey-400/80 backdrop-blur-md"
+    class="fixed top-0 left-0 w-full h-16 bg-vx-grey-400/80 backdrop-blur-md z-10"
   >
     <Container class="h-full">
       <div class="flex items-center justify-between h-full py-3">
