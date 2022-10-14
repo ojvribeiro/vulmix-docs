@@ -53,8 +53,16 @@
       @apply text-lg;
     }
 
-    p {
+    p, ul {
       @apply text-lg mb-6;
+    }
+
+    ul {
+      list-style: disc;
+
+      li {
+        @apply mb-3;
+      }
     }
   }
 </style>
