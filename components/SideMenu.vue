@@ -12,6 +12,14 @@
       </li>
     </ul>
 
+    <h5>Core features</h5>
+
+    <ul>
+      <li>
+        <NuxtLink to="/guide/core-features/dynamic-routes">Dynamic routes</NuxtLink>
+      </li>
+    </ul>
+
     <h5>Built-in components</h5>
 
     <ul>
