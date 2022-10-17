@@ -29,30 +29,6 @@
       @apply rounded p-1;
     }
 
-    h1 {
-      @apply text-5xl;
-    }
-
-    h2 {
-      @apply text-4xl;
-    }
-
-    h3 {
-      @apply text-3xl;
-    }
-
-    h4 {
-      @apply text-2xl;
-    }
-
-    h5 {
-      @apply text-xl;
-    }
-
-    h6 {
-      @apply text-lg;
-    }
-
     p, ul {
       @apply text-lg mb-6;
     }
