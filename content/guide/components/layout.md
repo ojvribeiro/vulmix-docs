@@ -14,9 +14,7 @@ You can use `kebab-case` or `PascalCase` in the layout name.
 
 Inside `layouts/about.vue`, create your HTML layout around a `<slot />` tag:
 
-```vue
-<!-- layouts/about.vue -->
-
+```html [layouts/about.vue] {2,6}
 <template>
   <!-- Put your layout around the slot -->
   <slot />
@@ -28,9 +26,7 @@ Inside `layouts/about.vue`, create your HTML layout around a `<slot />` tag:
 
 In the `pages/about.vue`, wrap the content inside a `<Layout>` component, passing the layout name as a prop:
 
-```vue
-<!-- pages/about.vue -->
-
+```html [pages/about.vue]
 <template>
   <Layout name="about">
     That's my About page
