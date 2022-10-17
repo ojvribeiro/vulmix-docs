@@ -14,31 +14,3 @@
   </div>
 </template>
 
-<style lang="scss">
-  [data-vx-content] {
-
-    pre, p>code {
-      background-color: rgba(#fff, 15%);
-    }
-
-    pre {
-      @apply rounded-xl px-4 mb-6;
-    }
-
-    code {
-      @apply rounded p-1;
-    }
-
-    p, ul {
-      @apply text-lg mb-6;
-    }
-
-    ul {
-      list-style: disc;
-
-      li {
-        @apply mb-3;
-      }
-    }
-  }
-</style>
