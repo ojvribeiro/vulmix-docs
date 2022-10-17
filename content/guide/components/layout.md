@@ -16,9 +16,11 @@ Inside `layouts/about.vue`, create your HTML layout around a `<slot />` tag:
 
 ```html [layouts/about.vue] {2,6}
 <template>
-  <!-- Put your layout around the slot -->
+  <MyNavbar />
+
   <slot />
-  <!-- Put your layout around the slot -->
+
+  <MyFooter />
 </template>
 ```
 
