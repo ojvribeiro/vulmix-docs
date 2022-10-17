@@ -8,7 +8,9 @@ Let's say that you want to create a layout for the "about" page. Simply create a
 
 ![image](https://user-images.githubusercontent.com/8026741/193365247-ee9b9a17-a591-46f7-b0e6-954acc837f6e.png)
 
-> You can use `kebab-case` or `PascalCase` in the layout name.
+::alert
+You can use `kebab-case` or `PascalCase` in the layout name.
+::
 
 Inside `layouts/about.vue`, create your HTML layout around a `<slot />` tag:
 
@@ -38,4 +40,6 @@ In the `pages/about.vue`, wrap the content inside a `<Layout>` component, passin
 
 Your page will inherit all the `layouts/about.vue` components and styles.
 
-> ℹ️ **Tip:** If you use the `<Layout>` component in the root `app.vue` file, the layout will be applied to every page.
+::alert{type="warning"}
+If you use the `<Layout>` component in the root `app.vue` file, the layout will be applied to every page.
+::
