@@ -1,6 +1,6 @@
 # `<Layout>`
 
-This PR adds support for multiple layouts by simply creating a Vue file inside the `layouts` folder.
+Vulmix allows you to create multiple layouts for your application.
 
 ## Creating a layout
 
