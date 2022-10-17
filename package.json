@@ -13,5 +13,9 @@
     "nuxt-icon": "^0.1.6",
     "sass": "^1.55.0",
     "sass-loader": "10"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.3.0",
+    "@vueuse/nuxt": "^9.3.0"
   }
 }
