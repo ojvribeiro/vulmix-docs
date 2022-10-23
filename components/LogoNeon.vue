@@ -31,7 +31,7 @@
     }
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       width: 358px;
       height: 358px;
@@ -48,7 +48,8 @@
     }
 
     @keyframes pulse {
-      0%, 100% {
+      0%,
+      100% {
         background: rgba(61, 218, 152, 0.3);
       }
       50% {

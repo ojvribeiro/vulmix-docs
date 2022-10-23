@@ -1,9 +1,20 @@
 <template>
   <div class="flex gap-4" :class="`vx-alert vx-alert-${props.type}`">
     <div>
-      <Icon name="uiw:warning-o" class="text-[#ffd200]" v-if="props.type === 'warning'"></Icon>
-      <Icon name="ic:outline-dangerous" class="text-[#ff0000]" v-else-if="props.type === 'danger'"></Icon>
-      <Icon name="emojione-v1:construction" v-else-if="props.type === 'progress'" />
+      <Icon
+        name="uiw:warning-o"
+        class="text-[#ffd200]"
+        v-if="props.type === 'warning'"
+      ></Icon>
+      <Icon
+        name="ic:outline-dangerous"
+        class="text-[#ff0000]"
+        v-else-if="props.type === 'danger'"
+      ></Icon>
+      <Icon
+        name="emojione-v1:construction"
+        v-else-if="props.type === 'progress'"
+      />
       <Icon name="bi:info-circle" class="text-[#40b9ff]" v-else></Icon>
     </div>
 
@@ -17,8 +28,8 @@
   const props = defineProps({
     type: {
       type: String,
-      default: 'note'
-    }
+      default: 'note',
+    },
   })
 </script>
 
@@ -30,7 +41,8 @@
       margin-bottom: 0;
     }
 
-    &-warning, &-progress {
+    &-warning,
+    &-progress {
       background-color: rgba(#fffb00, 10%);
       @apply text-xl;
     }

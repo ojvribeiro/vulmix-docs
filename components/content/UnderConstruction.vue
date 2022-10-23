@@ -1,3 +1,1 @@
-<template>
-  This section is still under construction.
-</template>
+<template>This section is still under construction.</template>

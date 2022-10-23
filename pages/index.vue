@@ -9,7 +9,13 @@
             class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center"
           >
             <div>
-              <h1>Create <em class="mr-3 text-vx-brand-pink inline-block vx-neon-pink">faster</em> Vue single page apps</h1>
+              <h1>
+                Create
+                <em class="mr-3 text-vx-brand-pink inline-block vx-neon-pink"
+                  >faster</em
+                >
+                Vue single page apps
+              </h1>
 
               <ul class="list-disc">
                 <li>Components auto import</li>
@@ -186,7 +192,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       width: 240px;
       aspect-ratio: 1;
       background: rgb(243 161 240 / 26%);

@@ -63,7 +63,6 @@
 </script>
 
 <style data-made-with="vivus-instant" scoped>
-
   @media (min-width: 768px) {
     .vx-string-pulse svg {
       animation-name: neon_string_pulse;
@@ -109,11 +108,12 @@
   }
 
   @keyframes neon_string_pulse {
-    0%, 100% {
-      filter: drop-shadow(0px 0px 15px #F3A1F0);
+    0%,
+    100% {
+      filter: drop-shadow(0px 0px 15px #f3a1f0);
     }
     50% {
-      filter: drop-shadow(0px 0px 25px #FFF);
+      filter: drop-shadow(0px 0px 25px #fff);
     }
   }
 </style>

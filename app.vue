@@ -1,6 +1,8 @@
 <template>
   <div>
-    <NuxtLoadingIndicator color="repeating-linear-gradient(to right, #3DDA98 0%, #B940FF 50%, #F3A1F0 100%)" />
+    <NuxtLoadingIndicator
+      color="repeating-linear-gradient(to right, #3DDA98 0%, #B940FF 50%, #F3A1F0 100%)"
+    />
 
     <Navbar />
 
@@ -154,9 +156,9 @@
       font-weight: 800;
     }
 
-    pre, code {
+    pre,
+    code {
       font-family: 'Inconsolata', monospace;
     }
   }
 </style>
-
