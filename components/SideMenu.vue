@@ -164,6 +164,14 @@
               border-left-style: solid;
             }
           }
+
+          ul {
+            li {
+              a {
+                padding-left: 40px;
+              }
+            }
+          }
         }
       }
     }
