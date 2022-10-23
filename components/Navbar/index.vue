@@ -1,6 +1,7 @@
 <template>
   <div
-    class="fixed top-0 left-0 w-full h-16 bg-vx-grey-400/80 backdrop-blur-md z-10"
+    class="fixed top-0 left-0 w-full h-16 backdrop-blur-md z-10 transition-colors duration-300"
+    :class="y > 50 && 'bg-vx-grey-400/80'"
   >
     <Container class="h-full">
       <div class="flex items-center justify-between h-full py-3">
@@ -43,6 +44,10 @@
     </Container>
   </div>
 </template>
+
+<script setup>
+  const { y } = useWindowScroll()
+</script>
 
 <style lang="scss" scoped>
   ul {
