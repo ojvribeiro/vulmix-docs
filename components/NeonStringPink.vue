@@ -7,6 +7,7 @@
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       ref="svg"
+      preserveAspectRatio="none"
     >
       <g filter="url(#filter0_d_129_137)">
         <path
@@ -76,10 +77,20 @@
     position: absolute;
     background-size: 1920px 100%;
     background-position: 50%;
-    width: 100%;
+    width: 1920px;
     height: 239px;
-    top: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
+
+    @media (min-width: 768px) {
+      top: 50%;
+    }
+
+    @media (min-width: 1921px) {
+      width: 100%;
+    }
   }
 
   .neon_string_0 {
