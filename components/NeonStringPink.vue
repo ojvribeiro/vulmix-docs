@@ -77,16 +77,12 @@
     position: absolute;
     background-size: 1920px 100%;
     background-position: 50%;
-    width: 1920px;
+    width: 100%;
     height: 239px;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-
-    @media (min-width: 768px) {
-      top: 50%;
-    }
 
     @media (min-width: 1921px) {
       width: 100%;

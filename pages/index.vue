@@ -98,7 +98,7 @@
       </Container>
     </div>
 
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-center py-6">
       <NuxtLink
         class="vx-icon-link"
         to="https://github.com/ojvribeiro/vulmix"
@@ -169,11 +169,15 @@
 
     &::before {
       position: absolute;
-      content: '';
-      width: 284px;
-      height: 284px;
-      background: rgba(243 161 240 / 20%);
+      content: "";
+      width: 240px;
+      aspect-ratio: 1;
+      background: rgb(243 161 240 / 26%);
       filter: blur(145px);
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       z-index: -1;
 
       @media (min-width: 768px) {
@@ -185,11 +189,12 @@
     }
 
     @keyframes pulse {
-      0%, 100% {
-        background: rgba(243 161 240 / 20%);
+      0%,
+      100% {
+        background: rgba(243 161 240 / 30%);
       }
       50% {
-        background: rgba(243 161 240 / 50%);
+        background: rgba(243 161 240 / 70%);
       }
     }
   }
