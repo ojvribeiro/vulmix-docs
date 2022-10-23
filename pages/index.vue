@@ -70,7 +70,7 @@
                   >Laravel Mix</NuxtLink
                 >
                 (powered by Webpack 5) as its build step for compiling your Vue
-                and Sass files. Vulmix do all the configuration for you so you
+                and Sass files. Vulmix does all the configuration for you so you
                 can focus on you app.
               </p>
 
