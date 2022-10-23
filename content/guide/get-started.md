@@ -1,5 +1,9 @@
 # Get started with Vulmix
 
+::alert{type="progress"}
+  <under-construction />
+::
+
 ## Installation
 
 The easiest way to get started with Vulmix is by running:
