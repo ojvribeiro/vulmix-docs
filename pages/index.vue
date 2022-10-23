@@ -73,11 +73,43 @@
         </div>
       </Container>
     </div>
+
+    <div class="vx-neon-string-pink">
+      <Container class="my-20">
+        <div class="flex flex-col items-center justify-center">
+          <h2>Get started now</h2>
+
+          <p class="md:text-lg text-center">
+            Start using Vulmix by running this command or
+            <NuxtLink to="/guide/get-started">read the docs</NuxtLink> for more
+            info.
+          </p>
+
+          <div class="w-full md:w-1/2">
+            <div
+              class="vx-neon-pink before:top-[-30%] text-center mt-8 rounded-xl bg-[#222222] p-8 text-lg"
+            >
+              <code> npx create-vulmix-app my-app </code>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </div>
+
+    <div class="flex items-center justify-center">
+      <NuxtLink
+        class="vx-icon-link"
+        to="https://github.com/ojvribeiro/vulmix"
+        target="_blank"
+      >
+        <Icon name="fa:github" />
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  a:not(.vx-button, .vx-button-flat) {
+  a:not(.vx-button, .vx-button-flat, .vx-icon-link) {
     @apply text-vx-brand-green;
 
     padding: 2px 0;
@@ -103,14 +135,26 @@
     }
   }
 
+  a.vx-icon-link {
+    @apply text-3xl hover:text-white/50;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl mb-12;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl mb-6;
+  }
+
   ul {
-    @apply text-xl mb-12;
+    @apply text-lg md:text-xl mb-12;
 
     list-style: disc;
     margin-left: 20px;
 
     li {
-      @apply mb-3 pl-4;
+      @apply md:mb-3 pl-4;
 
       &:last-child {
         margin-bottom: 0;
@@ -118,7 +162,7 @@
     }
   }
 
-  .vx-neon-green {
+  .vx-neon-pink {
     position: relative;
 
     &::before {
@@ -126,8 +170,24 @@
       content: '';
       width: 284px;
       height: 284px;
-      background: rgba(243, 161, 240, 0.2);
-      filter: blur(143.291px);
+      background: rgba(243 161 240 / 20%);
+      filter: blur(145px);
+      z-index: -1;
+    }
+  }
+
+  .vx-neon-string-pink {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-image: url(/img/neon-string-pink.svg);
+      background-size: 1920px 100%;
+      background-position: 50%;
+      width: 100%;
+      height: 239px;
+      top: 50%;
       z-index: -1;
     }
   }
