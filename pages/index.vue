@@ -5,7 +5,7 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center h-full">
           <div class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center">
             <div class="vx-neon-pink">
-              <h1>Create faster Vue single page apps</h1>
+              <h1>Create <em class="mr-3 text-vx-brand-pink">faster</em> Vue single page apps</h1>
 
               <ul class="list-disc">
                 <li>Components auto import</li>
