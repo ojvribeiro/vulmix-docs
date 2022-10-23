@@ -1,9 +1,5 @@
 # Get started with Vulmix
 
-::alert{type="progress"}
-  <under-construction />
-::
-
 ## Installation
 
 The easiest way to get started with Vulmix is by running:
@@ -12,11 +8,23 @@ The easiest way to get started with Vulmix is by running:
 npx create-vulmix-app your-app-name
 ```
 
-...and follow the instructions on the terminal.
+Once the install is complete, get into your project folder and install Vulmix dependencies:
+
+```bash
+cd your-app-name
+```
+
+```bash
+# With NPM
+npm install
+
+# Or with Yarn
+yarn install
+```
 
 ## Running the project
 
-Run the project locally by `cd`ing into the project directory and then running the following command:
+Run the project locally by `cd`ing into the project directory and then running the `dev` command:
 
 ```bash
 # With NPM
@@ -26,29 +34,11 @@ npm run dev
 yarn dev
 ```
 
-This should open your project on the port `3000` with fast refresh.
-
-## Serving without fast refresh
-
-If you don't want fast refresh for some reason, you can serve your project with this command:
-
-```bash
-# With NPM
-npm run serve
-
-# Or with Yarn
-yarn serve
-```
-
-This should serve your project onto the port `8000` _without_ fast refresh.
-
-::alert{type="warning"}
-You need to `npm run build` in a separate terminal to recompile your files without serving them.
-::
+This should serve your project on [`localhost:3000`](http://localhost:3000) with [Hot Module Replacement](/guide/core-features/hot-module-replacement) enabled.
 
 ## Preparing for production
 
-To compile an optimized code, you need to run the following command:
+To compile an optimized build, you need to run the following command:
 
 ```bash
 # With NPM
@@ -59,3 +49,25 @@ yarn prod
 ```
 
 This will minify and optimize your project code in the `_dist` folder which you can deploy its contents on any host.
+
+::alert
+  If you are hosting your project on [Vercel](https://vercel.com/), it will automatically generate a production build.
+::
+
+## Testing your production build locally
+
+If you want to test your project after running the `prod` command, you can run the `serve` command to raise a server on the `8000` port:
+
+```bash
+# With NPM
+npm run serve
+
+# Or with Yarn
+yarn serve
+```
+
+Then you can open you project at [`localhost:8000`](http://localhost:8000).
+
+::alert
+Your assets will be served with Gzip compression.
+::
