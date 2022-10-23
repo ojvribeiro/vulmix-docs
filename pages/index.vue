@@ -175,6 +175,19 @@
       background: rgba(243 161 240 / 20%);
       filter: blur(145px);
       z-index: -1;
+      animation-name: pulse;
+      animation-duration: 10000ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        background: rgba(243 161 240 / 20%);
+      }
+      50% {
+        background: rgba(243 161 240 / 50%);
+      }
     }
   }
 
