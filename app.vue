@@ -18,7 +18,7 @@
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inconsolata&family=Poppins:wght@400;700;800&display=swap');
 
   body {
-    @apply bg-vx-grey-400 text-white min-h-screen;
+    @apply bg-vx-grey-400 text-white min-h-screen overflow-x-hidden;
 
     font-family: 'DM Sans', sans-serif;
     overflow-y: scroll;
