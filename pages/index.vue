@@ -58,9 +58,16 @@
               <h2>The power of Vue joins the flexibility of Laravel Mix</h2>
 
               <p class="mb-6 md:text-lg">
-                Vulmix uses Laravel Mix (powered by Webpack 5) as its build step
-                for compiling your Vue and Sass files. Vulmix do all the
-                configuration for you so you can focus on you app.
+                Vulmix uses
+                <NuxtLink
+                  to="https://laravel-mix.com/"
+                  target="_blank"
+                  rel="nofollow noreferrer noopener"
+                  >Laravel Mix</NuxtLink
+                >
+                (powered by Webpack 5) as its build step for compiling your Vue
+                and Sass files. Vulmix do all the configuration for you so you
+                can focus on you app.
               </p>
 
               <div class="flex gap-2 items-center">
