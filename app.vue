@@ -8,6 +8,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Vulmix'
+  })
+</script>
+
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inconsolata&family=Poppins:wght@400;700;800&display=swap');
 
