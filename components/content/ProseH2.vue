@@ -4,6 +4,6 @@
 
 <style lang="scss" scoped>
   h2 {
-    @apply text-4xl;
+    @apply text-4xl pt-5 pb-2 border-b border-b-[#ffffff1a];
   }
 </style>
