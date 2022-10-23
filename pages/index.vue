@@ -14,12 +14,12 @@
                 <li>Multi layout support</li>
                 <li>
                   ...
-                  <NuxtLink to="/guide/get-started/">and a lot more</NuxtLink>.
+                  <NuxtLink to="/guide/get-started">and a lot more</NuxtLink>.
                 </li>
               </ul>
 
               <div class="flex gap-2 items-center">
-                <NuxtLink class="vx-button" to="/guide/get-started/">
+                <NuxtLink class="vx-button" to="/guide/get-started">
                   Read the docs
                 </NuxtLink>
 
@@ -64,7 +64,7 @@
               </p>
 
               <div class="flex gap-2 items-center">
-                <NuxtLink class="vx-button" to="/guide/get-started/">
+                <NuxtLink class="vx-button" to="/guide/get-started">
                   Get started
                 </NuxtLink>
               </div>
