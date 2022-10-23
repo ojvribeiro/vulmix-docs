@@ -88,10 +88,13 @@
       background: rgba(61, 218, 152, 0.3);
       filter: blur(105px);
       transform: translate(-50%, -50%);
-      animation-name: pulse;
-      animation-duration: 10000ms;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
+
+      @media (min-width: 768px) {
+        animation-name: pulse;
+        animation-duration: 10000ms;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
     }
 
     @keyframes pulse {

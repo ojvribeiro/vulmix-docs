@@ -37,11 +37,14 @@
       height: 358px;
       background: rgba(61, 218, 152, 0.3);
       filter: blur(180.627px);
-      transform: matrix(1, 0, 0, -1, 0, 0);
-      animation-name: pulse;
-      animation-duration: 10000ms;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
+
+      @media (min-width: 768px) {
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        animation-name: pulse;
+        animation-duration: 10000ms;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
     }
 
     @keyframes pulse {

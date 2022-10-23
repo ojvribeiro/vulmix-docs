@@ -175,10 +175,13 @@
       background: rgba(243 161 240 / 20%);
       filter: blur(145px);
       z-index: -1;
-      animation-name: pulse;
-      animation-duration: 10000ms;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
+
+      @media (min-width: 768px) {
+        animation-name: pulse;
+        animation-duration: 10000ms;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
     }
 
     @keyframes pulse {

@@ -62,11 +62,14 @@
 </script>
 
 <style data-made-with="vivus-instant" scoped>
-  .vx-string-pulse svg {
-    animation-name: neon_string_pulse;
-    animation-duration: 2000ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+
+  @media (min-width: 768px) {
+    .vx-string-pulse svg {
+      animation-name: neon_string_pulse;
+      animation-duration: 2000ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
   }
 
   svg {
@@ -80,6 +83,7 @@
   }
 
   .neon_string_0 {
+    height: 100%;
     stroke-dasharray: 1576 1578;
     stroke-dashoffset: 1577;
   }
@@ -90,6 +94,7 @@
     animation-delay: 1000ms;
     animation-fill-mode: forwards;
   }
+
   @keyframes neon_string_draw {
     100% {
       stroke-dashoffset: 0;
