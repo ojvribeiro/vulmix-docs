@@ -75,6 +75,8 @@
     </div>
 
     <div class="vx-neon-string-pink">
+      <NeonStringPink />
+
       <Container class="my-20">
         <div class="flex flex-col items-center justify-center">
           <h2>Get started now</h2>
@@ -178,17 +180,5 @@
 
   .vx-neon-string-pink {
     position: relative;
-
-    &::before {
-      position: absolute;
-      content: '';
-      background-image: url(/img/neon-string-pink.svg);
-      background-size: 1920px 100%;
-      background-position: 50%;
-      width: 100%;
-      height: 239px;
-      top: 50%;
-      z-index: -1;
-    }
   }
 </style>
