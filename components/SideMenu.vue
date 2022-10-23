@@ -112,7 +112,6 @@
       <li>
         <NuxtLink to="/guide/structure/app.vue">
           <div class="flex items-center gap-2">
-            <Icon name="fa6-brands:vuejs" />
             <span>app.vue</span>
           </div>
         </NuxtLink>
@@ -121,7 +120,6 @@
       <li>
         <NuxtLink to="/guide/structure/webpack.mix.js">
           <div class="flex items-center gap-2">
-            <Icon name="mdi:webpack" />
             <span>webpack.mix.js</span>
           </div>
         </NuxtLink>
