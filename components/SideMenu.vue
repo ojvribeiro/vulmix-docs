@@ -60,6 +60,26 @@
             <span>assets</span>
           </div>
         </NuxtLink>
+
+        <ul>
+          <li>
+            <NuxtLink to="/guide/structure/icons">
+              <div class="flex items-center gap-2">
+                <Icon name="bi:folder" />
+                <span>icons</span>
+              </div>
+            </NuxtLink>
+          </li>
+
+          <li>
+            <NuxtLink to="/guide/structure/img">
+              <div class="flex items-center gap-2">
+                <Icon name="bi:folder" />
+                <span>img</span>
+              </div>
+            </NuxtLink>
+          </li>
+        </ul>
       </li>
 
       <li>
