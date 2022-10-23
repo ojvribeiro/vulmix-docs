@@ -1,12 +1,12 @@
 <template>
-  <div class="h-[80vh]">
+  <div class="md:h-[70vh]">
     <Container class="h-full mt-20">
-      <div class="grid grid-cols-2 items-center h-full">
-        <div class="flex items-center">
-          <div class="vx-neon-green">
-            <h1 class="text-6xl mb-12">Create faster Vue single page apps</h1>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center h-full">
+        <div class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center">
+          <div class="vx-neon-pink">
+            <h1>Create faster Vue single page apps</h1>
 
-            <ul class="text-lg list-disc">
+            <ul class="list-disc">
               <li>Components auto import</li>
               <li>File based routing</li>
               <li>Image asset optimization</li>
@@ -22,7 +22,11 @@
                 Read the docs
               </NuxtLink>
 
-              <NuxtLink class="vx-button-flat" to="https://github.com/ojvribeiro/vulmix" target="_blank">
+              <NuxtLink
+                class="vx-button-flat"
+                to="https://github.com/ojvribeiro/vulmix"
+                target="_blank"
+              >
                 <Icon name="fa:github" />
                 GitHub
               </NuxtLink>
@@ -30,8 +34,10 @@
           </div>
         </div>
 
-        <div class="flex items-center justify-center">
-          <LogoNeon />
+        <div
+          class="col-span-12 md:col-span-4 xl:col-span-6 hidden md:flex order-1 md:order-2 items-center md:justify-end"
+        >
+          <LogoNeon class="xl:w-max" />
         </div>
       </div>
     </Container>
