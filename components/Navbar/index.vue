@@ -9,7 +9,7 @@
           <NavbarLogo />
         </NuxtLink>
 
-        <div class="hidden md:flex items-center gap-6">
+        <div class="flex items-center gap-6">
           <div>
             <ul class="nav-menu flex gap-4">
               <li>
