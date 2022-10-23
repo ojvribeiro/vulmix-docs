@@ -121,6 +121,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: '',
+  })
+</script>
+
 <style lang="scss" scoped>
   a:not(.vx-button, .vx-button-flat, .vx-icon-link) {
     @apply text-vx-brand-green;
