@@ -47,13 +47,13 @@
     <div>
       <Container class="my-20">
         <div
-          class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-between h-full"
+          class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center justify-between h-full"
         >
-          <div class="flex items-center justify-center">
+          <div class="flex col-span-5 items-center justify-center">
             <VueLoveMix class="w-1/2 md:w-max" />
           </div>
 
-          <div class="flex items-center">
+          <div class="flex col-span-7 items-center">
             <div>
               <h2>The power of Vue joins the flexibility of Laravel Mix</h2>
 
