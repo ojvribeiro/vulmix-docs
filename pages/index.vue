@@ -1,46 +1,78 @@
 <template>
-  <div class="md:h-[70vh]">
-    <Container class="h-full mt-20">
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center h-full">
-        <div class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center">
-          <div class="vx-neon-pink">
-            <h1>Create faster Vue single page apps</h1>
+  <div>
+    <div class="md:h-[70vh]">
+      <Container class="h-full mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center h-full">
+          <div class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center">
+            <div class="vx-neon-pink">
+              <h1>Create faster Vue single page apps</h1>
 
-            <ul class="list-disc">
-              <li>Components auto import</li>
-              <li>File based routing</li>
-              <li>Image asset optimization</li>
-              <li>Multi layout support</li>
-              <li>
-                ...
-                <NuxtLink to="/guide/get-started/">and a lot more</NuxtLink>.
-              </li>
-            </ul>
+              <ul class="list-disc">
+                <li>Components auto import</li>
+                <li>File based routing</li>
+                <li>Image asset optimization</li>
+                <li>Multi layout support</li>
+                <li>
+                  ...
+                  <NuxtLink to="/guide/get-started/">and a lot more</NuxtLink>.
+                </li>
+              </ul>
 
-            <div class="flex gap-2 items-center">
-              <NuxtLink class="vx-button" to="/guide/get-started/">
-                Read the docs
-              </NuxtLink>
+              <div class="flex gap-2 items-center">
+                <NuxtLink class="vx-button" to="/guide/get-started/">
+                  Read the docs
+                </NuxtLink>
 
-              <NuxtLink
-                class="vx-button-flat"
-                to="https://github.com/ojvribeiro/vulmix"
-                target="_blank"
-              >
-                <Icon name="fa:github" />
-                GitHub
-              </NuxtLink>
+                <NuxtLink
+                  class="vx-button-flat"
+                  to="https://github.com/ojvribeiro/vulmix"
+                  target="_blank"
+                >
+                  <Icon name="fa:github" />
+                  GitHub
+                </NuxtLink>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-span-12 md:col-span-4 xl:col-span-6 hidden md:flex order-1 md:order-2 items-center md:justify-end"
+          >
+            <LogoNeon class="xl:w-max" />
+          </div>
+        </div>
+      </Container>
+    </div>
+
+    <div>
+      <Container class="my-20">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-between h-full"
+        >
+          <div class="flex items-center justify-center">
+            <VueLoveMix class="w-1/2 md:w-max" />
+          </div>
+
+          <div class="flex items-center">
+            <div>
+              <h2>The power of Vue joins the flexibility of Laravel Mix</h2>
+
+              <p class="mb-6 md:text-lg">
+                Vulmix uses Laravel Mix (powered by Webpack 5) as its build step
+                for compiling your Vue and Sass files. Vulmix do all the
+                configuration for you so you can focus on you app.
+              </p>
+
+              <div class="flex gap-2 items-center">
+                <NuxtLink class="vx-button" to="/guide/get-started/">
+                  Get started
+                </NuxtLink>
+              </div>
             </div>
           </div>
         </div>
-
-        <div
-          class="col-span-12 md:col-span-4 xl:col-span-6 hidden md:flex order-1 md:order-2 items-center md:justify-end"
-        >
-          <LogoNeon class="xl:w-max" />
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   </div>
 </template>
 
