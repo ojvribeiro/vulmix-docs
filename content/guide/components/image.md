@@ -1,4 +1,4 @@
-# `<Image>`
+# `<Image>` component
 
 ## Features
 

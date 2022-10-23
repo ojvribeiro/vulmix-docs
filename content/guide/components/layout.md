@@ -1,4 +1,4 @@
-# `<Layout>`
+# `<Layout>` component
 
 Vulmix allows you to create multiple layouts for your application.
 

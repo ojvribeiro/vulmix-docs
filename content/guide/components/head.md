@@ -1,4 +1,4 @@
-# `<Head>`
+# `<Head>` component
 
 Powered by [@vueuse/head](https://github.com/vueuse/head), now Vulmix allows to use the auto-imported `<Head>` component to change the page `title` for example like this:
 
