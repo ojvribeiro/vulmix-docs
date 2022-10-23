@@ -16,7 +16,23 @@
 
     <ul>
       <li>
+        <NuxtLink to="/guide/core-features/components-auto-import">Components auto import</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/file-based-routing">File based routing</NuxtLink>
+      </li>
+
+      <li>
         <NuxtLink to="/guide/core-features/dynamic-routes">Dynamic routes</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/hot-module-replacement">Hot Module Replacement</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/image-optimization">Image asset optimization</NuxtLink>
       </li>
     </ul>
 
