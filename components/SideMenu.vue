@@ -12,6 +12,30 @@
       </li>
     </ul>
 
+    <h5>Core features</h5>
+
+    <ul>
+      <li>
+        <NuxtLink to="/guide/core-features/components-auto-import">Components auto import</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/file-based-routing">File based routing</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/dynamic-routes">Dynamic routes</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/hot-module-replacement">Hot Module Replacement</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/image-optimization">Image asset optimization</NuxtLink>
+      </li>
+    </ul>
+
     <h5>Built-in components</h5>
 
     <ul>
@@ -52,6 +76,26 @@
             <span>assets</span>
           </div>
         </NuxtLink>
+
+        <ul>
+          <li>
+            <NuxtLink to="/guide/structure/icons">
+              <div class="flex items-center gap-2">
+                <Icon name="bi:folder" />
+                <span>icons</span>
+              </div>
+            </NuxtLink>
+          </li>
+
+          <li>
+            <NuxtLink to="/guide/structure/img">
+              <div class="flex items-center gap-2">
+                <Icon name="bi:folder" />
+                <span>img</span>
+              </div>
+            </NuxtLink>
+          </li>
+        </ul>
       </li>
 
       <li>
@@ -84,7 +128,6 @@
       <li>
         <NuxtLink to="/guide/structure/app.vue">
           <div class="flex items-center gap-2">
-            <Icon name="fa6-brands:vuejs" />
             <span>app.vue</span>
           </div>
         </NuxtLink>
@@ -93,7 +136,6 @@
       <li>
         <NuxtLink to="/guide/structure/webpack.mix.js">
           <div class="flex items-center gap-2">
-            <Icon name="mdi:webpack" />
             <span>webpack.mix.js</span>
           </div>
         </NuxtLink>
@@ -154,6 +196,14 @@
             &.router-link-exact-active {
               @apply border-vx-brand-pink text-vx-brand-green;
               border-left-style: solid;
+            }
+          }
+
+          ul {
+            li {
+              a {
+                padding-left: 40px;
+              }
             }
           }
         }
