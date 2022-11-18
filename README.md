@@ -7,4 +7,4 @@ This is the repo for the [Vulmix docs](https://vulmix.vercel.app/). This documen
 
 Check the [official Vulmix repository](https://github.com/ojvribeiro/vulmix) to open Issues related to the framework.
 
-![image](https://user-images.githubusercontent.com/8026741/197426694-5a1cded9-7f86-4058-9bd4-5611c45c8bd2.png)
+![image](https://user-images.githubusercontent.com/8026741/202640481-a9625f4b-85ec-4ebb-98bc-b0041568c4d0.png)
