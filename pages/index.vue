@@ -18,9 +18,10 @@
               </h1>
 
               <ul class="list-disc">
-                <li>Components auto import</li>
-                <li>Multi layout support</li>
+                <li>Auto-imports</li>
                 <li>File-based routing</li>
+                <li>Hot Module Replacement</li>
+                <li>TypeScript and Sass support</li>
                 <li>
                   ...
                   <NuxtLink to="/guide/get-started">and a lot more</NuxtLink>.
