@@ -1,4 +1,4 @@
-# Components auto import
+# Auto-imports
 
 ::alert{type="progress"}
   <under-construction />

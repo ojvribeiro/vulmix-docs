@@ -1,6 +1,6 @@
 # Dynamic routes
 
-With dynamic routes, you can create a route wrapping the page file name in brackets:
+You can create a dynamic route by wrapping the page file name in square brackets:
 
 ![image](https://user-images.githubusercontent.com/8026741/193370390-e1b4e822-c66f-4384-9e5a-5a589b7eadec.png)
 
