@@ -20,7 +20,7 @@
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/file-based-routing">File based routing</NuxtLink>
+        <NuxtLink to="/guide/core-features/file-based-routing">File-based routing</NuxtLink>
       </li>
 
       <li>

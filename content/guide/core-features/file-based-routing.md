@@ -1,4 +1,4 @@
-# File based routing
+# File-based routing
 
 ::alert{type="progress"}
   <under-construction />

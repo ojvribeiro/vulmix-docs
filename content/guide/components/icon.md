@@ -17,5 +17,5 @@ Then, call the `<Icon>` component passing your icon name to the `name` prop:
 ```
 
 ::alert{type="warning"}
-  Your SVG must have only one color and non filled. Otherwise, every color will become the same as the parent text color.
+  Your SVG must have only one color and must not have a filled background. Otherwise, every color will become the same as the parent text color.
 ::

@@ -19,9 +19,9 @@
 
               <ul class="list-disc">
                 <li>Components auto import</li>
-                <li>File based routing</li>
                 <li>Image asset optimization</li>
                 <li>Multi layout support</li>
+                <li>File-based routing</li>
                 <li>
                   ...
                   <NuxtLink to="/guide/get-started">and a lot more</NuxtLink>.
