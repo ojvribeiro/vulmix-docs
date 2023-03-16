@@ -19,7 +19,6 @@
 
               <ul class="list-disc">
                 <li>Components auto import</li>
-                <li>Image asset optimization</li>
                 <li>Multi layout support</li>
                 <li>File-based routing</li>
                 <li>
