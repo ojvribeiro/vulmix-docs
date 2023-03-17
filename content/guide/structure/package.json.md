@@ -1,4 +1,4 @@
-# File-based routing
+# The `package.json` file
 
 ::alert{type="progress"}
   <under-construction />

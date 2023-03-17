@@ -18,10 +18,10 @@
               </h1>
 
               <ul class="list-disc">
-                <li>Components auto import</li>
-                <li>File based routing</li>
-                <li>Image asset optimization</li>
-                <li>Multi layout support</li>
+                <li>Auto-imports</li>
+                <li>File-based routing</li>
+                <li>Hot Module Replacement</li>
+                <li>TypeScript and Sass support</li>
                 <li>
                   ...
                   <NuxtLink to="/guide/get-started">and a lot more</NuxtLink>.
@@ -75,9 +75,9 @@
                   rel="nofollow noreferrer noopener"
                   >Laravel Mix</NuxtLink
                 >
-                (powered by Webpack 5) as its build step for compiling your Vue
-                and Sass files. Vulmix does all the configuration for you so you
-                can focus on building your app.
+                (powered by Webpack 5) under the hood for compiling your Vue
+                files. It does all the configuration for you, so you can focus
+                on building your app.
               </p>
 
               <div class="flex gap-2 items-center">

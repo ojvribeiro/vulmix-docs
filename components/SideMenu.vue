@@ -16,11 +16,11 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/core-features/components-auto-import">Components auto import</NuxtLink>
+        <NuxtLink to="/guide/core-features/auto-imports">Auto-imports</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/file-based-routing">File based routing</NuxtLink>
+        <NuxtLink to="/guide/core-features/file-based-routing">File-based routing</NuxtLink>
       </li>
 
       <li>
@@ -32,7 +32,11 @@
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/image-optimization">Image asset optimization</NuxtLink>
+        <NuxtLink to="/guide/core-features/typescript">TypeScript support</NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/core-features/sass">Sass support</NuxtLink>
       </li>
     </ul>
 
@@ -40,7 +44,7 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/components/image">&lt;Image&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/image"><span class="line-through">&lt;Image&gt;</span></NuxtLink>
       </li>
 
       <li>
@@ -65,6 +69,16 @@
             <Icon name="bi:folder" />
 
             <span>_dist</span>
+          </div>
+        </NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/structure/dotvulmix">
+          <div class="flex items-center gap-2">
+            <Icon name="bi:folder" />
+
+            <span>.vulmix</span>
           </div>
         </NuxtLink>
       </li>
@@ -134,9 +148,25 @@
       </li>
 
       <li>
-        <NuxtLink to="/guide/structure/webpack.mix.js">
+        <NuxtLink to="/guide/structure/package.json">
           <div class="flex items-center gap-2">
-            <span>webpack.mix.js</span>
+            <span>package.json</span>
+          </div>
+        </NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/structure/tsconfig.json">
+          <div class="flex items-center gap-2">
+            <span>tsconfig.json</span>
+          </div>
+        </NuxtLink>
+      </li>
+
+      <li>
+        <NuxtLink to="/guide/structure/vulmix.config.ts">
+          <div class="flex items-center gap-2">
+            <span>vulmix.config.ts</span>
           </div>
         </NuxtLink>
       </li>

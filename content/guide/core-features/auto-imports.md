@@ -1,4 +1,4 @@
-# File-based routing
+# Auto-imports
 
 ::alert{type="progress"}
   <under-construction />

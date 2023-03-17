@@ -17,5 +17,13 @@ Then, call the `<Icon>` component passing your icon name to the `name` prop:
 ```
 
 ::alert{type="warning"}
-  Your SVG must have only one color and non filled. Otherwise, every color will become the same as the parent text color.
+  Your SVG must have only one color and must not have a filled background. Otherwise, every color will become the same as the parent text color.
 ::
+
+## Iconify support
+
+The `<Icon>` component also allows you to use the <a href="https://icon-sets.iconify.design/" target="_blank" rel="nofollow noreferrer">Iconify icon sets</a>, with the `icon` prop:
+
+```js
+  <Icon icon="mdi:facebook" />
+```

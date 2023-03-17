@@ -1,4 +1,4 @@
-# File-based routing
+# The `tsconfig.json` file
 
 ::alert{type="progress"}
   <under-construction />

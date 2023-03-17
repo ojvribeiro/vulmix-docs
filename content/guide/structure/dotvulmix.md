@@ -1,4 +1,4 @@
-# File-based routing
+# The `.vulmix` folder
 
 ::alert{type="progress"}
   <under-construction />

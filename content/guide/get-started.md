@@ -48,7 +48,7 @@ npm run prod
 yarn prod
 ```
 
-This will minify and optimize your project code in the `_dist` folder which you can deploy its contents on any host.
+This will minify and optimize your project code in the `_dist` folder which you can deploy its contents on any static host.
 
 ::alert
   If you are hosting your project on [Vercel](https://vercel.com/), it will automatically generate a production build.
