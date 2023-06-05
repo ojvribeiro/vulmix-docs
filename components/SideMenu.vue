@@ -8,7 +8,7 @@
       </li>
 
       <li>
-        <NuxtLink to="/guide/why-vulmix">Why Vulmix?</NuxtLink>
+        <NuxtLink to="/guide/what-is-vulmix"> What is Vulmix? </NuxtLink>
       </li>
     </ul>
 
