@@ -139,3 +139,29 @@ As a best practice, it is recommended to use the same name for the Pinia stores 
 
 Also, it is recommended to use the `use` prefix and the `Store` suffix for your Pinia stores. This way, you can easily identify which variables are Pinia stores.
 ::
+
+## Custom directories
+
+You can set custom directories for auto-imports in the `vulmix.config.ts` file:
+
+```ts [vulmix.config.ts]
+import { defineVulmixConfig } from './.vulmix/utils/defineVulmixConfig'
+
+export default defineConfig({
+  imports: {
+    dirs: ['my-auto-imported-dir'],
+  },
+})
+```
+
+You can also set <a href="https://github.com/antfu/unplugin-auto-import/tree/main/src/presets" target="_blank" rel="nofollow noreferrer noopener">auto-imports presets</a> in the `vulmix.config.ts` file:
+
+```ts [vulmix.config.ts]
+import { defineVulmixConfig } from './.vulmix/utils/defineVulmixConfig'
+
+export default defineConfig({
+  imports: {
+    presets: ['@vueuse/core', 'axios'],
+  },
+})
+```
