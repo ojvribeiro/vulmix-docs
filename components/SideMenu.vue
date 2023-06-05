@@ -54,10 +54,6 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/components/image"><span class="line-through">&lt;Image&gt;</span></NuxtLink>
-      </li>
-
-      <li>
         <NuxtLink to="/guide/components/head"> &lt;Head&gt; </NuxtLink>
       </li>
 
