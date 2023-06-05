@@ -4,7 +4,7 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/get-started">Get started</NuxtLink>
+        <NuxtLink to="/guide/get-started"> Get started </NuxtLink>
       </li>
 
       <li>
@@ -16,27 +16,37 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/core-features/auto-imports">Auto-imports</NuxtLink>
+        <NuxtLink to="/guide/core-features/auto-imports">
+          Auto-imports
+        </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/file-based-routing">File-based routing</NuxtLink>
+        <NuxtLink to="/guide/core-features/file-based-routing">
+          File-based routing
+        </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/dynamic-routes">Dynamic routes</NuxtLink>
+        <NuxtLink to="/guide/core-features/dynamic-routes">
+          Dynamic routes
+        </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/hot-module-replacement">Hot Module Replacement</NuxtLink>
+        <NuxtLink to="/guide/core-features/hot-module-replacement">
+          Hot Module Replacement
+        </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/typescript">TypeScript support</NuxtLink>
+        <NuxtLink to="/guide/core-features/typescript">
+          TypeScript support
+        </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/sass">Sass support</NuxtLink>
+        <NuxtLink to="/guide/core-features/sass"> Sass support </NuxtLink>
       </li>
     </ul>
 
@@ -48,15 +58,15 @@
       </li>
 
       <li>
-        <NuxtLink to="/guide/components/head">&lt;Head&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/head"> &lt;Head&gt; </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/components/icon">&lt;Icon&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/icon"> &lt;Icon&gt; </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/components/layout">&lt;Layout&gt;</NuxtLink>
+        <NuxtLink to="/guide/components/layout"> &lt;Layout&gt; </NuxtLink>
       </li>
     </ul>
 
