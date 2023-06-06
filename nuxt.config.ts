@@ -15,4 +15,11 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+
+  ogImage: {
+    satoriOptions: {
+      width: 1200,
+      height: 627,
+    },
+  },
 })
