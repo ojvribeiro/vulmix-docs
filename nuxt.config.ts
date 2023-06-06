@@ -21,5 +21,6 @@ export default defineNuxtConfig({
       width: 1200,
       height: 627,
     },
+    siteUrl: 'https://vulmix.vercel.app/',
   },
 })
