@@ -128,8 +128,12 @@
 </template>
 
 <script setup>
-  useHead({
+  useSeoMeta({
     title: '',
+  })
+
+  defineOgImageStatic({
+    component: 'HomeOgImage',
   })
 </script>
 

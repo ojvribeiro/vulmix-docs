@@ -13,3 +13,13 @@
     </Container>
   </div>
 </template>
+
+<script setup lang="ts">
+  useSeoMeta({
+    title: '',
+  })
+
+  defineOgImageStatic({
+    component: 'ContentOgImage',
+  })
+</script>
