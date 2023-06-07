@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   ogImage: {
     satoriOptions: {
       width: 1200,
-      height: 627,
+      height: 630,
     },
     siteUrl: 'https://vulmix.vercel.app/',
   },
