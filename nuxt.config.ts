@@ -20,6 +20,15 @@ export default defineNuxtConfig({
     satoriOptions: {
       width: 1200,
       height: 630,
+      tailwindConfig: {
+        theme: {
+          extend: {
+            colors: {
+              'vx-grey-500': '#181818',
+            },
+          },
+        },
+      },
     },
     siteUrl: 'https://vulmix.vercel.app/',
   },
