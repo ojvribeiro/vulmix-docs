@@ -10,7 +10,7 @@
 </script>
 
 <template>
-  <div class="relative w-full h-full text-white bg-vx-grey-500">
+  <div class="relative w-full h-full text-white bg-[#181818]">
     <div class="absolute top-0 right-0">
       <img src="/img/pink-orb.png" />
     </div>
