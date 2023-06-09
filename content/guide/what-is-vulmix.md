@@ -20,4 +20,4 @@ And you're good to go! You can start building your application right away in the
 
 To be honest, Vulmix started as a personal project to learn more about <a href="https://vuejs.org/" target="_blank" rel="nofollow noreferrer noopener">Vue</a> and the ecosystem around it, but I happened to put more effort and love on it than previously expected and it has grown to be a very useful tool for me and I hope it can be useful for you too.
 
-Nuxt is great and Vulmix took a lot of inspiration from it (auto-imports is such a nice feature). I tried to keep the same simplicity and ease of use that Nuxt has, but with a more minimal approach and a smaller scope (so no SSR or SSG). Vulmix aims to provide tools for building PWAs and web games with almost no configuration or optmization needed.
+Nuxt is great and Vulmix took a lot of inspiration from it (auto-imports is such a nice feature). I tried to keep the same simplicity and ease of use that Nuxt has, but with a more minimal approach and a smaller scope (so no SSR or SSG). Vulmix aims to provide tools for building PWAs and web games with almost no configuration or optimization needed.
