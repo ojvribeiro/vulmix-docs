@@ -13,7 +13,7 @@
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.5.3",
     "nuxt-icon": "^0.1.8",
-    "nuxt-og-image": "2.0.0-beta.51",
+    "nuxt-og-image": "2.0.0-beta.52",
     "postcss": "^8.4.24",
     "sass": "^1.62.1",
     "sass-loader": "^10.4.1",
@@ -24,4 +24,3 @@
     "@vueuse/nuxt": "^9.13.0"
   }
 }
-
