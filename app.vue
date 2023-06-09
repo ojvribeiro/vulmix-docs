@@ -54,11 +54,6 @@
       },
 
       {
-        property: 'og:image',
-        content: '/img/icons/favicon/favicon-200x200.png',
-      },
-
-      {
         property: 'twitter:card',
         content: 'summary_large_image',
       },
@@ -77,11 +72,6 @@
         property: 'twitter:description',
         content:
           'Vulmix helps you to create faster Vue SPAs with little effort.',
-      },
-
-      {
-        property: 'twitter:image',
-        content: '/img/icons/favicon/favicon-200x200.png',
       },
     ],
 
