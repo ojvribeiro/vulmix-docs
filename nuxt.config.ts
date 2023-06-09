@@ -30,6 +30,5 @@ export default defineNuxtConfig({
         },
       },
     },
-    siteUrl: 'https://vulmix.vercel.app/',
   },
 })
