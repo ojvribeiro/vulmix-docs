@@ -145,8 +145,6 @@ Also, it is recommended to use the `use` prefix and the `Store` suffix for your 
 You can set custom directories for auto-imports in the `vulmix.config.ts` file. For example, if you want to set the `states` directory for Pinia auto-imports, you can do it like this:
 
 ```ts [vulmix.config.ts]
-import { defineVulmixConfig } from './.vulmix/utils/defineVulmixConfig'
-
 export default defineConfig({
   imports: {
     dirs: [ 'states' ],
@@ -159,11 +157,9 @@ Now, you can create your Pinia stores in the `/states` directory and they will b
 You can also set <a href="https://github.com/antfu/unplugin-auto-import/tree/main/src/presets" target="_blank" rel="nofollow noreferrer noopener">auto-imports presets</a> in the `vulmix.config.ts` file:
 
 ```ts [vulmix.config.ts]
-import { defineVulmixConfig } from './.vulmix/utils/defineVulmixConfig'
-
 export default defineConfig({
   imports: {
-    presets: ['@vueuse/core', 'axios'],
+    presets: [ '@vueuse/core', 'axios' ],
   },
 })
 ```
