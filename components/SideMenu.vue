@@ -12,41 +12,35 @@
       </li>
     </ul>
 
-    <h5>Core features</h5>
+    <h5>Features</h5>
 
     <ul>
       <li>
-        <NuxtLink to="/guide/core-features/auto-imports">
+        <NuxtLink to="/guide/features/auto-imports">
           Auto-imports
         </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/file-based-routing">
-          File-based routing
+        <NuxtLink to="/guide/features/routing">
+          Routing
         </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/dynamic-routes">
-          Dynamic routes
-        </NuxtLink>
-      </li>
-
-      <li>
-        <NuxtLink to="/guide/core-features/hot-module-replacement">
+        <NuxtLink to="/guide/features/hot-module-replacement">
           Hot Module Replacement
         </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/typescript">
+        <NuxtLink to="/guide/features/typescript">
           TypeScript support
         </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/core-features/sass"> Sass support </NuxtLink>
+        <NuxtLink to="/guide/features/sass"> Sass support </NuxtLink>
       </li>
     </ul>
 
