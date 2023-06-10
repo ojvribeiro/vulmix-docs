@@ -1,6 +1,6 @@
 # Vulmix documentation
 
-This is the repo for the [Vulmix docs](https://vulmix.vercel.app/). This documentation is powered by [Nuxt 3](https://v3.nuxtjs.org/) + [Nuxt Content](https://content.nuxtjs.org/).
+This is the repo for the [Vulmix docs](https://vulmix.dev/). This documentation is powered by [Nuxt 3](https://v3.nuxtjs.org/) + [Nuxt Content](https://content.nuxtjs.org/).
 
 - :books: [Sugest changes to the documentation by opening a PR](https://github.com/ojvribeiro/vulmix-docs/pulls)
 - :lady_beetle: [Report a bug](https://github.com/ojvribeiro/vulmix-docs/issues/new/choose)
