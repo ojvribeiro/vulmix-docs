@@ -4,11 +4,11 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/get-started"> Get started </NuxtLink>
+        <NuxtLink to="/guide/introduction"> Introduction </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/what-is-vulmix"> What is Vulmix? </NuxtLink>
+        <NuxtLink to="/guide/get-started"> Get started </NuxtLink>
       </li>
     </ul>
 
@@ -16,15 +16,11 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/features/auto-imports">
-          Auto-imports
-        </NuxtLink>
+        <NuxtLink to="/guide/features/auto-imports"> Auto-imports </NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="/guide/features/routing">
-          Routing
-        </NuxtLink>
+        <NuxtLink to="/guide/features/routing"> Routing </NuxtLink>
       </li>
 
       <li>

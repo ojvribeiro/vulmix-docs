@@ -13,7 +13,7 @@
           <div>
             <ul class="nav-menu flex gap-4">
               <li>
-                <NuxtLink to="/guide/get-started">Documentation</NuxtLink>
+                <NuxtLink to="/guide/introduction">Documentation</NuxtLink>
               </li>
             </ul>
           </div>
