@@ -12,6 +12,10 @@ And after installing the dependencies and running the project with the `dev` scr
 
 ![vulmix-starter-template-with-deps](/img/vulmix-starter-template-with-deps.png)
 
+::alert
+The [`.vulmix` folder](/guide/structure/dotvulmix) contains all the runtime and type definitions files. You can safely ignore it since it's automatically generated and managed by Vulmix.
+::
+
 And you're good to go! You can start building your application right away in the `app.vue` file.
 
 ## Why?
