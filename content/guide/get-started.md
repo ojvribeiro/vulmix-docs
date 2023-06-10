@@ -34,7 +34,7 @@ npm run dev
 yarn dev
 ```
 
-This should serve your project on [`localhost:3000`](http://localhost:3000) with [Hot Module Replacement](/guide/core-features/hot-module-replacement) enabled.
+This should serve your project on [`localhost:3000`](http://localhost:3000) with [HMR](/guide/core-features/hot-module-replacement) enabled.
 
 ## Preparing for production
 
