@@ -36,7 +36,7 @@ All your page files must have only one root element so [Page Transitions](/guide
 
 ## Dynamic Routes
 
-Vulmix allows you to create dynamic routes by creating a file with the name between square brackets inside the `/pages` directory. For example, if you create a file named `[slug].vue`, any route will be matched by this file. The value of the dynamic segment will be available in the `params` property of the `route` object. You can access it using the auto-imported [Vue Router's `useRoute` composable](https://router.vuejs.org/guide/advanced/composition-api.html).
+Vulmix allows you to create dynamic routes by creating a file with the name between square brackets inside the `/pages` directory. For example, if you create a file named `[slug].vue`, any route will be matched by this file. The value of the dynamic segment will be available in the `params` property of the `route` object. You can access it using the auto-imported <a href="https://router.vuejs.org/guide/advanced/composition-api.html" target="_blank" rel="nofollow noreferrer noopener">Vue Router's `useRoute` composable</a>.
 
 ```vue [pages/[slug].vue] {2-4}
 <script setup>
@@ -56,7 +56,7 @@ This way, if you go to `/hello-world`, the `slug` variable will be equal to `hel
 
 ![vulmix-pages-directory](/img/vulmix-file-routing-dynamic-rendered.png)
 
-You can use dynamic routes to create pages with dynamic content, like a blog post or a product page by passing the route parameter to an API call. In the example bellow, we are using the [VueUse's `useFetch`](https://vueuse.org/core/useFetch/) composable to fetch the data from the [JSON Placeholder API](https://jsonplaceholder.typicode.com/).
+You can use dynamic routes to create pages with dynamic content, like a blog post or a product page by passing the route parameter to an API call. In the example bellow, we are using the <a href="https://vueuse.org/core/useFetch/" target="_blank" rel="nofollow noreferrer noopener">VueUse's `useFetch`</a> composable to fetch the data from the <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="nofollow noreferrer noopener">JSON Placeholder API</a>.
 
 ```vue [pages/[slug].vue]
 <script setup>
