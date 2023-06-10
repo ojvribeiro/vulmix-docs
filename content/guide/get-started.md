@@ -15,7 +15,7 @@ Before getting started with Vulmix, you need to make sure you have the following
 
 ## Installation
 
-The easiest way to get started with Vulmix is by running:
+To scaffold a new Vulmix project, you can use the <a href="https://npmjs.com/package/create-vulmix-app" target="_blank" rel="nofollow noopener noreferrer">`create-vulmix-app`</a> CLI tool:
 
 ```bash
 npx create-vulmix-app your-app-name
@@ -37,7 +37,7 @@ yarn install
 
 ## Running the project
 
-Run the project locally by `cd`ing into the project directory and then running the `dev` command:
+Run the project locally by going into the project directory and then running the `dev` command:
 
 ```bash
 # With NPM
@@ -47,11 +47,19 @@ npm run dev
 yarn dev
 ```
 
-This should serve your project on [`localhost:3000`](http://localhost:3000) with [HMR](/guide/core-features/hot-module-replacement) enabled.
+This should serve your project on an automatically picked port of localhost (default is `3000`) with [HMR](/guide/features/hot-module-replacement) enabled.
+
+![vulmix-port-3000](/img/vulmix-terminal-running.png)
+
+Then you should see the following page on your browser:
+
+![vulmix-starter-template](/img/vulmix-welcome.png)
+
+Now you can start building your application right away in the `app.vue` file by replacing the `<VulmixWelcome />` component with your own content.
 
 ## Preparing for production
 
-To compile an optimized build, you need to run the following command:
+To compile an optimized build, you need to run the `prod` command:
 
 ```bash
 # With NPM
