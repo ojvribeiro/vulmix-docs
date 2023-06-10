@@ -72,7 +72,7 @@ yarn prod
 This will minify and optimize your project code in the `_dist` folder which you can deploy its contents on any static host.
 
 ::alert
-  If you are hosting your project on [Vercel](https://vercel.com/), it will automatically generate a production build.
+  If you are hosting your project on <a href="https://vercel.com/" target="_blank" rel="nofollow noreferrer noopener">Vercel</a>, it will automatically generate a production build.
 ::
 
 ## Testing your production build locally
@@ -87,7 +87,7 @@ npm run serve
 yarn serve
 ```
 
-Then you can open you project at [`localhost:8000`](http://localhost:8000).
+Then you can open you project at <a href="http://localhost:8000" target="_blank" rel="nofollow noreferrer noopener">`localhost:8000`</a>.
 
 ::alert
 Your assets will be served with Gzip compression.
