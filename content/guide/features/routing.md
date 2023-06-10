@@ -31,7 +31,7 @@ The `index.vue` file is a special case. If you create a file named `index.vue` i
 ::
 
 ::alert{type="warning"}
-All your page files must have only one root element so [Page Transitions](/guide/core-features/page-transitions) can work. HTML comments also count as elements. So as a good practice, always wrap your page content in a `<div>` tag.
+All your page files must have only one root element so [Page Transitions](/guide/features/page-transitions) can work. HTML comments also count as elements. So as a good practice, always wrap your page content in a `<div>` tag.
 ::
 
 ## Dynamic Routes

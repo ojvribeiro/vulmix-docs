@@ -34,6 +34,12 @@
       </li>
 
       <li>
+        <NuxtLink to="/guide/features/page-transitions">
+          Page Transitions
+        </NuxtLink>
+      </li>
+
+      <li>
         <NuxtLink to="/guide/features/typescript">
           TypeScript support
         </NuxtLink>
