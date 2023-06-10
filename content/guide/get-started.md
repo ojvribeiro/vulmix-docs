@@ -1,5 +1,18 @@
 # Get started with Vulmix
 
+## Pre-requisites
+
+Before getting started with Vulmix, you need to make sure you have the following installed:
+
+- <a href="https://nodejs.org/" target="_blank" rel="nofollow noreferrer noopener">Node.js</a> >= 16
+- A package manager - <a href="https://www.npmjs.com/" target="_blank" rel="nofollow noreferrer noopener">NPM</a> or <a href="https://yarnpkg.com/" target="_blank" rel="nofollow noreferrer noopener">Yarn</a>
+- A code editor of your choice
+- A terminal of your choice
+
+::alert{type="warning"}
+  Vulmix still doesn't support PNPM.
+::
+
 ## Installation
 
 The easiest way to get started with Vulmix is by running:
