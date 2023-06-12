@@ -17,10 +17,10 @@
 
     <div class="absolute inset-0 flex flex-col items-center justify-center">
       <div
-        class="flex z-10 absolute flex-col items-center justify-center gap-5"
+        class="flex absolute flex-col items-center justify-center gap-5"
       >
         <div class="mb-12">
-          <img src="/img/vulmix-logo.svg" class="h-36" />
+          <img src="/img/vulmix-logo.svg" height="144" />
         </div>
 
         <div class="mb-8">
