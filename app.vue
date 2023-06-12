@@ -18,10 +18,6 @@
 
     meta: [
       {
-        charset: 'utf-8',
-      },
-
-      {
         name: 'description',
         content:
           'Vulmix helps you to create faster Vue SPAs with little effort.',
@@ -30,58 +26,6 @@
       {
         name: 'author',
         content: 'Victor Ribeiro',
-      },
-
-      {
-        property: 'og:type',
-        content: 'website',
-      },
-
-      {
-        property: 'og:url',
-        content: 'https://vulmix.vercel.app/',
-      },
-
-      {
-        property: 'og:title',
-        content: 'Vulmix - Create faster Vue single page apps',
-      },
-
-      {
-        property: 'og:description',
-        content:
-          'Vulmix helps you to create faster Vue SPAs with little effort.',
-      },
-
-      {
-        property: 'og:image',
-        content: '/img/icons/favicon/favicon-200x200.png',
-      },
-
-      {
-        property: 'twitter:card',
-        content: 'summary_large_image',
-      },
-
-      {
-        property: 'twitter:url',
-        content: 'https://vulmix.vercel.app/',
-      },
-
-      {
-        property: 'twitter:title',
-        content: 'Vulmix - Create faster Vue single page apps',
-      },
-
-      {
-        property: 'twitter:description',
-        content:
-          'Vulmix helps you to create faster Vue SPAs with little effort.',
-      },
-
-      {
-        property: 'twitter:image',
-        content: '/img/icons/favicon/favicon-200x200.png',
       },
     ],
 
