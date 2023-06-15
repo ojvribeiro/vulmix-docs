@@ -20,7 +20,7 @@
     },
   })
 
-  const maskSrc = computed(() => `/img/icons/${props.name}.${props.format}`)
+  const maskSrc = computed(() => `/img/icons/vulmix/${props.name}.${props.format}`)
 </script>
 
 <template>
@@ -28,7 +28,7 @@
     v-if="!props.icon"
     class="icon"
     :style="
-      props.font === true
+      props.font === true && props.format === 'svg'
         ? {
             'mask-image': `url(${maskSrc})`,
             '-webkit-mask-image': `url(${maskSrc})`,
