@@ -1,5 +1,11 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', 'nuxt-icon', '@vueuse/nuxt', 'nuxt-og-image'],
+  modules: [
+    '@nuxt/content',
+    'nuxt-icon',
+    '@vueuse/nuxt',
+    'nuxt-og-image',
+    '@nuxtjs/tailwindcss'
+  ],
 
   content: {
     highlight: {
