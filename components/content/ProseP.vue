@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
   p {
-    @apply text-lg mb-6;
+    @apply mb-6 text-lg;
 
     &:last-child {
       margin-bottom: 0;

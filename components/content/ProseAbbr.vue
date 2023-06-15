@@ -10,6 +10,6 @@
 
 <style scoped>
   abbr {
-    @apply text-vx-brand-pink cursor-help border-b border-vx-brand-pink no-underline border-dashed;
+    @apply cursor-help border-b border-dashed border-vx-brand-pink text-vx-brand-pink no-underline;
   }
 </style>

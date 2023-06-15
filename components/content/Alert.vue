@@ -35,7 +35,7 @@
 
 <style lang="scss" scoped>
   .vx-alert {
-    @apply rounded-xl p-4 mb-6;
+    @apply mb-6 rounded-xl p-4;
 
     .vx-alert-content p {
       margin-bottom: 0;
