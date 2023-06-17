@@ -1,3 +1,8 @@
+---
+title: Hot Module Replacement
+description: Hot Module Replacement (or HMR) is a feature that allows you to update your application code without having to refresh the page.
+---
+
 # Hot Module Replacement
 
 ::alert

@@ -1,3 +1,8 @@
+---
+title: Get started with Vulmix
+description: Start building your next Vue.js application with Vulmix.
+---
+
 # Get started with Vulmix
 
 ## Pre-requisites

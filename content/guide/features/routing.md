@@ -1,3 +1,8 @@
+---
+title: Routing
+description: Although you can create one-page applications only using the `app.vue` file, if you want to create more pages you will need a routing system. If you are familiar with Nuxt, you will feel right at home with Vulmix's file-based routing system.
+---
+
 # Routing
 
 Although you can create one-page applications only using the `app.vue` file, if you want to create more pages you will need a routing system. If you are familiar with Nuxt, you will feel right at home with Vulmix's file-based routing system.

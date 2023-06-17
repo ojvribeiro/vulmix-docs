@@ -1,3 +1,8 @@
+---
+title: Auto-imports
+description: Vulmix auto-imports components, composables, Pinia stores and Vue functions for you, so you don't have to import them manually in your Vue files.
+---
+
 # Auto-imports
 
 Vulmix auto-imports components, composables, Pinia stores and Vue functions for you, so you don't have to import them manually in your Vue files. This gives you a cleaner code and a faster development process. This feature is inspired by <a href="https://nuxt.com/" target="_blank" rel="nofollow noreferrer noopener">Nuxt</a>.

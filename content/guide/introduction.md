@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Know more about Vulmix and why it exists.
+---
+
 # What is Vulmix?
 
 Vulmix is a small and experimental <a href="https://vuejs.org/" target="_blank" rel="nofollow noreferrer noopener">Vue</a> meta-framework made by <a href="https://ojvribeiro.me/" target="_blank" rel="nofollow noreferrer noopener" title="Victor Ribeiro">@ojvribeiro</a>. It is totally inspired by <a href="https://nuxt.com/" target="_blank" rel="nofollow noreferrer noopener">Nuxt</a> and it aims to provide a simple and powerful way to create Vue.js single page applications (SPAs) with little effort and a minimal setup from the start.
