@@ -7,7 +7,7 @@
         </aside>
 
         <main class="col-span-8 lg:col-span-6">
-          <ContentDoc data-vx-content />
+          <ContentDoc />
         </main>
       </div>
     </Container>
