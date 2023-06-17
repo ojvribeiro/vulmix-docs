@@ -21,6 +21,12 @@
     },
   })
 
+  useHead({
+    titleTemplate: titleChunk => {
+      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
+    },
+  })
+
   defineOgImageStatic({
     component: 'ContentOgImage',
   })
