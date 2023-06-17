@@ -1,3 +1,8 @@
+---
+title: Layout component
+description: Vulmix allows you to create multiple layouts for your application.
+---
+
 # `<Layout>` component
 
 Vulmix allows you to create multiple layouts for your application.

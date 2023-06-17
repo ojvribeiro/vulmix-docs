@@ -1,3 +1,8 @@
+---
+title: Head component
+description: The Head component allows you to set head tags directly from the template.
+---
+
 # `<Head>` component
 
 Powered by [@vueuse/head](https://github.com/vueuse/head), Vulmix allows to use the auto-imported `<Head>` component to set the page title or other head tag (like the favicon) directly from the template.
