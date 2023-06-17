@@ -11,23 +11,20 @@
 </template>
 
 <script setup>
-  useHead({
+  useSeoMeta({
     titleTemplate: titleChunk => {
       return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
     },
+  })
 
-    meta: [
-      {
-        name: 'description',
-        content:
-          'Vulmix helps you to create faster Vue SPAs with little effort.',
-      },
+  useHead({
+    htmlAttrs: {
+      lang: 'en',
+    },
 
-      {
-        name: 'author',
-        content: 'Victor Ribeiro',
-      },
-    ],
+    titleTemplate: titleChunk => {
+      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
+    },
 
     link: [
       {
