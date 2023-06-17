@@ -17,12 +17,6 @@
 <script setup lang="ts">
   const { page } = useContent()
 
-  useSeoMeta({
-    titleTemplate: titleChunk => {
-      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
-    },
-  })
-
   useContentHead(page)
 
   defineOgImageStatic({

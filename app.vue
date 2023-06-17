@@ -6,24 +6,15 @@
 
     <Navbar />
 
+    <SeoKit />
     <NuxtPage />
   </div>
 </template>
 
 <script setup>
-  useSeoMeta({
-    titleTemplate: titleChunk => {
-      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
-    },
-  })
-
   useHead({
     htmlAttrs: {
       lang: 'en',
-    },
-
-    titleTemplate: titleChunk => {
-      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
     },
 
     link: [

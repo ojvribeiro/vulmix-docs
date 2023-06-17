@@ -1,11 +1,29 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      titleTemplate: '%pageTitle %titleSeparator %siteName',
+    },
+  },
+
   modules: [
     '@nuxt/content',
     'nuxt-icon',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
+
+  extends: ['nuxt-seo-kit'],
+
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://vulmix.dev',
+      siteName: 'Vulmix',
+      siteDescription: 'A Vue 3 meta-framework that uses Laravel Mix.',
+      titleSeparator: '-',
+      language: 'en-US',
+    },
+  },
 
   content: {
     documentDriven: true,
@@ -39,5 +57,5 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: true
+  devtools: true,
 })
