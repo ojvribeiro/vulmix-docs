@@ -7,7 +7,7 @@
         </aside>
 
         <main class="col-span-8 lg:col-span-6">
-          <ContentRenderer :key="page._id" :value="page" />
+          <ContentDoc />
         </main>
       </div>
     </Container>
@@ -15,10 +15,6 @@
 </template>
 
 <script setup lang="ts">
-  const { page } = useContent()
-
-  useContentHead(page)
-
   defineOgImageStatic({
     component: 'ContentOgImage',
   })
