@@ -7,7 +7,7 @@
         </aside>
 
         <main class="col-span-8 lg:col-span-6">
-          <ContentDoc />
+          <ContentRenderer :key="page._id" :value="page" />
         </main>
       </div>
     </Container>
@@ -15,17 +15,15 @@
 </template>
 
 <script setup lang="ts">
+  const { page } = useContent()
+
   useSeoMeta({
     titleTemplate: titleChunk => {
       return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
     },
   })
 
-  useHead({
-    titleTemplate: titleChunk => {
-      return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
-    },
-  })
+  useContentHead(page)
 
   defineOgImageStatic({
     component: 'ContentOgImage',
