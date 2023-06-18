@@ -56,7 +56,7 @@
 </script>
 
 <style lang="scss">
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inconsolata&family=Poppins:wght@400;700;800&display=swap');
+  @import '~/assets/sass/main';
 
   body {
     @apply min-h-screen overflow-x-hidden bg-vx-grey-400 text-white;

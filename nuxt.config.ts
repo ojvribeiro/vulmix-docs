@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
 
   extends: ['nuxt-seo-kit'],
@@ -54,6 +55,16 @@ export default defineNuxtConfig({
           },
         },
       },
+    },
+  },
+
+  googleFonts: {
+    prefetch: true,
+    preconnect: true,
+    families: {
+      'DM+Sans': true,
+      Inconsolata: true,
+      Poppins: [400, 700, 800],
     },
   },
 
