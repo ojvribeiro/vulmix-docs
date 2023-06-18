@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    'nuxt-vercel-analytics',
   ],
 
   extends: ['nuxt-seo-kit'],
