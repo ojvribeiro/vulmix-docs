@@ -1,7 +1,33 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', 'nuxt-icon', '@vueuse/nuxt', 'nuxt-og-image'],
+  app: {
+    head: {
+      titleTemplate: '%pageTitle %titleSeparator %siteName',
+    },
+  },
+
+  modules: [
+    '@nuxt/content',
+    'nuxt-icon',
+    '@vueuse/nuxt',
+    'nuxt-og-image',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+  ],
+
+  extends: ['nuxt-seo-kit'],
+
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://vulmix.dev',
+      siteName: 'Vulmix',
+      siteDescription: 'A Vue 3 meta-framework that uses Laravel Mix.',
+      titleSeparator: '-',
+      language: 'en-US',
+    },
+  },
 
   content: {
+    documentDriven: true,
     highlight: {
       theme: 'github-dark',
     },
@@ -13,8 +39,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  css: ['~/assets/css/main.css'],
 
   ogImage: {
     satoriOptions: {
@@ -31,4 +55,16 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  googleFonts: {
+    prefetch: true,
+    preconnect: true,
+    families: {
+      'DM+Sans': true,
+      Inconsolata: true,
+      Poppins: [400, 700, 800],
+    },
+  },
+
+  devtools: true,
 })

@@ -90,7 +90,7 @@
   }
 
   :slotted(pre) {
-    @apply rounded-xl px-4 mb-6;
+    @apply mb-6 rounded-xl px-4;
 
     background-color: rgba(#fff, 5%);
     display: flex;

@@ -10,7 +10,7 @@
 
 <style lang="scss" scoped>
   blockquote {
-    @apply p-4 mb-6;
+    @apply mb-6 p-4;
 
     border-left: 2px solid rgba(#fff, 15%);
     border-radius: none;

@@ -15,7 +15,7 @@
         name="emojione-v1:construction"
         v-else-if="props.type === 'progress'"
       />
-      <Icon name="bi:info-circle" class="text-[#40b9ff]" v-else></Icon>
+      <Icon name="fluent:info-24-regular" class="text-[#40b9ff]" v-else></Icon>
     </div>
 
     <div class="vx-alert-content">
@@ -35,7 +35,7 @@
 
 <style lang="scss" scoped>
   .vx-alert {
-    @apply rounded-xl p-4 mb-6;
+    @apply mb-6 rounded-xl p-4;
 
     .vx-alert-content p {
       margin-bottom: 0;

@@ -1,0 +1,24 @@
+table {
+  thead {
+    tr {
+      th {
+        background-color: rgba(#fff, 0.1);
+        text-align: start;
+        padding: 1rem;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        padding: 1rem;
+        border: 1px solid rgba(#fff, 0.05);
+      }
+    }
+
+    tr:nth-child(odd) {
+      background-color: rgba(#fff, 0.05);
+    }
+  }
+}

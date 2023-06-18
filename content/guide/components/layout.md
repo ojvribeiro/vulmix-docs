@@ -1,10 +1,15 @@
+---
+title: Layout component
+description: Vulmix allows you to create multiple layouts for your application.
+---
+
 # `<Layout>` component
 
-Vulmix allows you to create multiple layouts for your application.
+Vulmix allows you to create multiple layouts for your application. You can use the `<Layout>` component to wrap your page content with a layout.
 
 ## Creating a layout
 
-Let's say that you want to create a layout for the "about" page. Simply create an `about.vue` file inside the `layouts` folder:
+Say that you want to create a layout for the "about" page. Simply create an `about.vue` file inside the `layouts` folder:
 
 ![image](https://user-images.githubusercontent.com/8026741/193365247-ee9b9a17-a591-46f7-b0e6-954acc837f6e.png)
 
