@@ -17,6 +17,13 @@
       lang: 'en',
     },
 
+    meta: [
+      {
+        name: 'google-site-verification',
+        content: 'P-pb9Ch6gLn9pkjGK95KSwOVXp_QWcCMmEAZ8PRSHMk',
+      },
+    ],
+
     link: [
       {
         rel: 'apple-touch-icon',
