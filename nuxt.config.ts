@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     'nuxt-vercel-analytics',
+    '@nuxt/image',
   ],
 
   extends: ['nuxt-seo-kit'],

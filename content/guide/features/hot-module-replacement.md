@@ -64,7 +64,8 @@ Now, let's use both components in the `app.vue` file:
 
 You should see the following result:
 
-![HMR Example](/img/vulmix-hmr-sample-1.png)
+::image{src="/img/vulmix-hmr-sample-1.png" alt="HMR Example"}
+::
 
 Now, let's increment the value and make some changes to the `ComponentOne.vue`. Notice how the counter value of the `ComponentTwo.vue` component is not reset and the changes to the `ComponentOne.vue` are reflected in real time:
 

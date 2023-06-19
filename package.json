@@ -20,6 +20,7 @@
     "sass": "^1.62.1"
   },
   "dependencies": {
+    "@nuxt/image": "1.0.0-rc.1",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
