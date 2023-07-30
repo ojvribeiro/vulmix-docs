@@ -20,7 +20,9 @@
     },
   })
 
-  const maskSrc = computed(() => `/img/icons/vulmix/${props.name}.${props.format}`)
+  const maskSrc = computed(
+    () => `/img/icons/vulmix/${props.name}.${props.format}`
+  )
 </script>
 
 <template>

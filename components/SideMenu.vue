@@ -179,7 +179,7 @@
 <style lang="scss" scoped>
   aside {
     .side-menu {
-      @apply sticky pb-14 top-20 overflow-y-scroll;
+      @apply sticky top-20 overflow-y-scroll pb-14;
 
       height: calc(100vh - 110px);
 

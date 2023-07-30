@@ -1,10 +1,10 @@
 <template>
   <div
-    class="fixed top-0 left-0 w-full h-16 backdrop-blur-md z-10 transition-colors duration-300"
+    class="fixed left-0 top-0 z-10 h-16 w-full backdrop-blur-md transition-colors duration-300"
     :class="y > 50 && 'bg-vx-grey-400/80'"
   >
     <Container class="h-full">
-      <div class="flex items-center justify-between h-full py-3">
+      <div class="flex h-full items-center justify-between py-3">
         <NuxtLink to="/" class="h-full">
           <NavbarLogo />
         </NuxtLink>

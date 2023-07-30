@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="md:h-[70vh]">
-      <Container class="h-full mt-20">
+      <Container class="mt-20 h-full">
         <div
-          class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center h-full"
+          class="grid h-full grid-cols-1 items-center gap-8 md:grid-cols-12 lg:gap-12"
         >
           <div
-            class="col-span-12 md:col-span-8 xl:col-span-6 flex order-2 md:order-1 items-center"
+            class="order-2 col-span-12 flex items-center md:order-1 md:col-span-8 xl:col-span-6"
           >
             <div>
               <h1>
                 Create
-                <em class="mr-3 text-vx-brand-pink inline-block vx-neon-pink"
+                <em class="vx-neon-pink mr-3 inline-block text-vx-brand-pink"
                   >faster</em
                 >
                 Vue single page apps
@@ -28,7 +28,7 @@
                 </li>
               </ul>
 
-              <div class="flex gap-2 items-center">
+              <div class="flex items-center gap-2">
                 <NuxtLink class="vx-button" to="/guide/get-started">
                   Read the docs
                 </NuxtLink>
@@ -46,7 +46,7 @@
           </div>
 
           <div
-            class="col-span-12 md:col-span-4 xl:col-span-6 hidden md:flex order-1 md:order-2 items-center md:justify-end"
+            class="order-1 col-span-12 hidden items-center md:order-2 md:col-span-4 md:flex md:justify-end xl:col-span-6"
           >
             <LogoNeon class="xl:w-max" />
           </div>
@@ -57,13 +57,13 @@
     <div>
       <Container class="my-20">
         <div
-          class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center justify-between h-full"
+          class="grid h-full grid-cols-1 items-center justify-between gap-6 md:grid-cols-12"
         >
-          <div class="flex col-span-5 items-center justify-center">
+          <div class="col-span-5 flex items-center justify-center">
             <VueLoveMix class="w-1/2 md:w-max" />
           </div>
 
-          <div class="flex col-span-7 items-center">
+          <div class="col-span-7 flex items-center">
             <div>
               <h2>The power of Vue joins the flexibility of Laravel Mix</h2>
 
@@ -80,7 +80,7 @@
                 on building your app.
               </p>
 
-              <div class="flex gap-2 items-center">
+              <div class="flex items-center gap-2">
                 <NuxtLink class="vx-button" to="/guide/get-started">
                   Get started
                 </NuxtLink>
@@ -98,7 +98,7 @@
         <div class="flex flex-col items-center justify-center">
           <h2>Get started now</h2>
 
-          <p class="md:text-lg text-center">
+          <p class="text-center md:text-lg">
             Start using Vulmix by running this command or
             <NuxtLink to="/guide/get-started">read the docs</NuxtLink> for more
             info.
@@ -106,7 +106,7 @@
 
           <div class="w-full md:w-1/2">
             <div
-              class="vx-neon-pink before:top-[-30%] text-center mt-8 rounded-xl bg-[#222222] p-8 text-lg"
+              class="vx-neon-pink mt-8 rounded-xl bg-[#222222] p-8 text-center text-lg before:top-[-30%]"
             >
               <code> npx create-vulmix-app my-app </code>
             </div>
@@ -149,10 +149,10 @@
   }
 
   a.vx-button {
-    @apply bg-vx-green-100 transition block w-fit rounded-lg text-white px-4 py-2;
+    @apply block w-fit rounded-lg bg-vx-green-100 px-4 py-2 text-white transition;
 
     &-flat {
-      @apply bg-transparent transition text-white flex w-fit rounded-lg items-center gap-2 px-4 py-2;
+      @apply flex w-fit items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-white transition;
 
       &:hover {
         @apply bg-white/20;
@@ -169,21 +169,21 @@
   }
 
   h1 {
-    @apply text-4xl md:text-5xl lg:text-6xl mb-12;
+    @apply mb-12 text-4xl md:text-5xl lg:text-6xl;
   }
 
   h2 {
-    @apply text-3xl md:text-4xl lg:text-5xl mb-6;
+    @apply mb-6 text-3xl md:text-4xl lg:text-5xl;
   }
 
   ul {
-    @apply text-lg md:text-xl mb-12;
+    @apply mb-12 text-lg md:text-xl;
 
     list-style: disc;
     margin-left: 20px;
 
     li {
-      @apply md:mb-3 pl-4;
+      @apply pl-4 md:mb-3;
 
       &:last-child {
         margin-bottom: 0;
