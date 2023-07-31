@@ -128,12 +128,9 @@
 </template>
 
 <script setup>
-  useSeoMeta({
+  defineOgImage({
     title: '',
-  })
-
-  defineOgImageStatic({
-    component: 'HomeOgImage',
+    component: 'OgImageHome',
   })
 </script>
 

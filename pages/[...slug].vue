@@ -19,7 +19,7 @@
 
   useContentHead(page)
 
-  defineOgImageStatic({
-    component: 'ContentOgImage',
+  defineOgImage({
+    component: 'OgImageContent',
   })
 </script>
