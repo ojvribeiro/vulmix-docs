@@ -1,22 +1,22 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: '%pageTitle %titleSeparator %siteName',
+      titleTemplate: (titleChunk: string) => {
+        return titleChunk ? `${titleChunk} - Vulmix` : 'Vulmix'
+      },
     },
   },
 
   modules: [
     '@nuxt/content',
-    'nuxt-icon',
-    '@vueuse/nuxt',
-    'nuxt-og-image',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    'nuxt-vercel-analytics',
+    '@nuxt/icon',
     '@nuxt/image',
+    '@vueuse/nuxt',
+    '@nuxtjs/seo',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/fonts',
+    'nuxt-vercel-analytics',
   ],
-
-  extends: ['nuxt-seo-kit'],
 
   runtimeConfig: {
     public: {
@@ -32,13 +32,6 @@ export default defineNuxtConfig({
     documentDriven: true,
     highlight: {
       theme: 'github-dark',
-    },
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
     },
   },
 
@@ -58,15 +51,13 @@ export default defineNuxtConfig({
     },
   },
 
-  googleFonts: {
-    prefetch: true,
-    preconnect: true,
-    families: {
-      'DM+Sans': true,
-      Inconsolata: true,
-      Poppins: [400, 700, 800],
-    },
+  fonts: {
+    families: [
+      { name: 'DM Sans' },
+      { name: 'Inconsolata' },
+      { name: 'Poppins', weights: [400, 700, 800] },
+    ],
   },
 
-  devtools: true,
+  compatibilityDate: '2024-08-07',
 })
