@@ -57,7 +57,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
   const svg = ref(null)
   const svgIsVisible = useElementVisibility(svg)
 </script>

@@ -127,9 +127,8 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
   defineOgImage({
-    title: '',
     component: 'OgImageHome',
   })
 </script>
