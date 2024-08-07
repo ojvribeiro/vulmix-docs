@@ -6,5 +6,5 @@ description: ...
 # Page Transitions
 
 ::alert{type="progress"}
-  <under-construction />
+<under-construction />
 ::

@@ -10,9 +10,9 @@ Powered by [@vueuse/head](https://github.com/vueuse/head), Vulmix allows to use 
 ```html [page/test-page.vue] {3-5}
 <template>
   <div>
-    <Head>
+    <head>
       <title>My page</title>
-    </Head>
+    </head>
 
     <!-- Page content goes here -->
   </div>

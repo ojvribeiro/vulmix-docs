@@ -6,7 +6,6 @@
 
     <Navbar />
 
-    <SeoKit />
     <NuxtPage />
   </div>
 </template>

@@ -1,10 +1,11 @@
 {
-  "tabWidth": 2,
-  "useTabs": false,
-  "singleQuote": true,
-  "semi": false,
   "trailingComma": "es5",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "endOfLine": "lf",
   "vueIndentScriptAndStyle": true,
-  "arrowParens": "avoid",
+  "useTabs": false,
+  "printWidth": 80,
   "plugins": ["prettier-plugin-tailwindcss"]
 }

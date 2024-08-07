@@ -15,7 +15,7 @@ Before getting started with Vulmix, you need to make sure you have the following
 - A terminal of your choice
 
 ::alert{type="warning"}
-  Vulmix still doesn't support PNPM.
+Vulmix still doesn't support PNPM.
 ::
 
 ## Installation
@@ -77,7 +77,7 @@ yarn prod
 This will minify and optimize your project code in the `_dist` folder which you can deploy its contents on any static host.
 
 ::alert
-  If you are hosting your project on <a href="https://vercel.com/" target="_blank" rel="nofollow noreferrer noopener">Vercel</a>, it will automatically generate a production build.
+If you are hosting your project on <a href="https://vercel.com/" target="_blank" rel="nofollow noreferrer noopener">Vercel</a>, it will automatically generate a production build.
 ::
 
 ## Testing your production build locally

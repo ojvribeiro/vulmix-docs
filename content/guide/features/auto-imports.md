@@ -152,7 +152,7 @@ You can set custom directories for auto-imports in the `vulmix.config.ts` file. 
 ```ts [vulmix.config.ts]
 export default defineConfig({
   imports: {
-    dirs: [ 'states' ],
+    dirs: ['states'],
   },
 })
 ```
@@ -164,7 +164,7 @@ You can also set <a href="https://github.com/antfu/unplugin-auto-import/tree/mai
 ```ts [vulmix.config.ts]
 export default defineConfig({
   imports: {
-    presets: [ '@vueuse/core', 'axios' ],
+    presets: ['@vueuse/core', 'axios'],
   },
 })
 ```

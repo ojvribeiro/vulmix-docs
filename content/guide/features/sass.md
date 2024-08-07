@@ -6,5 +6,5 @@ description: ...
 # Sass support
 
 ::alert{type="progress"}
-  <under-construction />
+<under-construction />
 ::

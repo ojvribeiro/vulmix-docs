@@ -16,7 +16,6 @@
         </g>
       </g>
     </svg>
-
   </div>
 </template>
 

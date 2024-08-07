@@ -35,9 +35,7 @@ In the `pages/about.vue`, wrap the content inside a `<Layout>` component, passin
 
 ```html [pages/about.vue]
 <template>
-  <Layout name="about">
-    That's my About page
-  </Layout>
+  <Layout name="about"> That's my About page </Layout>
 </template>
 ```
 
