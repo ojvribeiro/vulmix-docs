@@ -1,3 +1,4 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -7,14 +8,18 @@ export default defineNuxtConfig({
     },
   },
 
+  future: {
+    compatibilityVersion: 4,
+  },
+
   modules: [
     '@nuxt/content',
+    '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxtjs/seo',
     '@nuxtjs/tailwindcss',
-    '@nuxt/fonts',
     'nuxt-vercel-analytics',
   ],
 

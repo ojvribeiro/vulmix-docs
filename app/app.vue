@@ -12,6 +12,9 @@
 
 <script setup lang="ts">
   useHead({
+    titleTemplate: (title) =>
+      title ? `${title} - Vulmix` : 'Vulmix',
+
     htmlAttrs: {
       lang: 'en',
     },
