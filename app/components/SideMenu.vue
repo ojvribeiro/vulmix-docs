@@ -142,6 +142,15 @@
       </li>
 
       <li>
+        <NuxtLink to="/guide/structure/public">
+          <div class="flex items-center gap-2">
+            <Icon name="bi:folder" />
+            <span>public</span>
+          </div>
+        </NuxtLink>
+      </li>
+
+      <li>
         <NuxtLink to="/guide/structure/app.vue">
           <div class="flex items-center gap-2">
             <span>app.vue</span>
