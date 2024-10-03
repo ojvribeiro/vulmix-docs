@@ -1,11 +1,42 @@
 ---
-title: Auto-imports
+title: Opt-in Auto-imports
 description: Vulmix auto-imports components, composables, Pinia stores and Vue functions for you, so you don't have to import them manually in your Vue files.
 ---
 
-# Auto-imports
+# Opt-in Auto-imports
 
-Vulmix auto-imports components, composables, Pinia stores and Vue functions for you, so you don't have to import them manually in your Vue files. This gives you a cleaner code and a faster development process. This feature is inspired by <a href="https://nuxt.com/" target="_blank" rel="nofollow noreferrer noopener">Nuxt</a>.
+Normally, in a Vue application, you have to import components, composables and Vue functions manually in your Vue files. This can be a bit tedious and time-consuming, especially when you have a lot of files and components.
+
+```vue [app.vue]{2}
+<script setup>
+  import { ref } from 'vue'
+
+  const count = ref(0)
+
+  function increment() {
+    count.value++
+  }
+</script>
+
+<template>
+  <div>
+    <p>Count: {{ count }}</p>
+    <button @click="increment">Increment</button>
+  </div>
+</template>
+```
+
+Auto-imports is a feature inspired by <a href="https://nuxt.com/" target="_blank" rel="nofollow noreferrer noopener">Nuxt</a> that allows you to use components, composables, Pinia stores and Vue functions without having to import them manually. This gives you a cleaner code and a faster development process.
+
+You can enable auto-imports in Vulmix easily by setting the `imports.enable` option to `true` in the `vulmix.config.ts` file:
+
+```ts [vulmix.config.ts]{2-4}
+export default defineVulmixConfig({
+  imports: {
+    enabled: true,
+  },
+})
+```
 
 ## Vue functions
 
@@ -96,68 +127,31 @@ You can use it like this in your `.vue` file:
 It is recommended to use the same name for the composables and the variables that you use to import them. This way, you can easily identify which composables are being used in your `.vue` file.
 ::
 
-## Pinia stores
-
-Pinia is a state management system for Vue 3. It is the official recommended alternative to Vuex and it is very easy to use. You can read more about Pinia in the <a href="https://pinia.vuejs.org/" target="_blank" rel="nofollow noreferrer noopener">Pinia documentation</a>.
-
-Vulmix auto-imports your Pinia stores from the `/stores` directory.
-
-In Vulmix, you can create a Pinia store like this:
-
-```js [stores/useCounterStore.js]
-// No need to import `defineStore`, it is already imported for you!
-
-export const useCounterStore = defineStore('counter', {
-  state() {
-    return {
-      count: 0,
-    }
-  },
-
-  actions: {
-    increment() {
-      this.count++
-    },
-  },
-})
-```
-
-You can use it like this in your `.vue` file:
-
-```vue [app.vue]{2}
-<script setup>
-  const counter = useCounterStore()
-</script>
-
-<template>
-  <div>
-    <p>Count: {{ counter.count }}</p>
-    <button @click="counter.increment">Increment</button>
-  </div>
-</template>
-```
-
-It's so simple!
-
-::alert
-As a best practice, it is recommended to use the same name for the Pinia stores and the variables that you use to import them. This way, you can easily identify which Pinia stores are being used in your `.vue` file.
-
-Also, it is recommended to use the `use` prefix and the `Store` suffix for your Pinia stores. This way, you can easily identify which variables are Pinia stores.
-::
-
 ## Custom imports
 
-You can set custom directories for auto-imports in the `vulmix.config.ts` file. For example, if you want to set the `states` directory for Pinia auto-imports, you can do it like this:
+You can set custom directories for auto-imports in the `vulmix.config.ts` file. For example, if you want to auto-import functions from a `/utils` directory, you can set it like this:
 
 ```ts [vulmix.config.ts]
 export default defineConfig({
   imports: {
-    dirs: ['states'],
+    dirs: ['utils'],
   },
 })
 ```
 
-Now, you can create your Pinia stores in the `/states` directory and they will be auto-imported for you.
+Now, all the functions in the `/utils` directory will be auto-imported in your `.js` or `.ts` files.
+
+```ts [utils/myFunction.ts]
+export function myFunction() {
+  console.log('Hello from myFunction!')
+}
+```
+
+```vue [app.vue]
+<script setup>
+  myFunction() // -> Hello from myFunction!
+</script>
+```
 
 You can also set <a href="https://github.com/antfu/unplugin-auto-import/tree/main/src/presets" target="_blank" rel="nofollow noreferrer noopener">auto-imports presets</a> in the `vulmix.config.ts` file:
 

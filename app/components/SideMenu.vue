@@ -16,7 +16,7 @@
 
     <ul>
       <li>
-        <NuxtLink to="/guide/features/auto-imports"> Auto-imports </NuxtLink>
+        <NuxtLink to="/guide/features/auto-imports"> Opt-in Auto-imports </NuxtLink>
       </li>
 
       <li>
