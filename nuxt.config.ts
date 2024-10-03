@@ -20,7 +20,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/seo',
     '@nuxtjs/tailwindcss',
-    'nuxt-vercel-analytics',
   ],
 
   build: { transpile: ['shiki'] },
