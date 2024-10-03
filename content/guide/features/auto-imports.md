@@ -131,8 +131,8 @@ It is recommended to use the same name for the composables and the variables tha
 
 You can set custom directories for auto-imports in the `vulmix.config.ts` file. For example, if you want to auto-import functions from a `/utils` directory, you can set it like this:
 
-```ts [vulmix.config.ts]
-export default defineConfig({
+```ts [vulmix.config.ts]{2-4}
+export default defineVulmixConfig({
   imports: {
     dirs: ['utils'],
   },

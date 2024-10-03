@@ -18,11 +18,14 @@ Hot Module Replacement (or HMR) is a feature that allows you to update your appl
 Vulmix comes with HMR enabled by default. You can see it in action by running the `dev` command:
 
 ```bash
-# With NPM
+# NPM
 npm run dev
 
-# Or with Yarn
+# Yarn
 yarn dev
+
+# Bun
+bun dev
 ```
 
 As an example, let's create a new component called `ComponentOne.vue` in the `components` folder with the following content:
@@ -47,6 +50,8 @@ Now, create another component called `ComponentTwo.vue`, this time with a counte
 </template>
 
 <script setup>
+  import { ref } from 'vue'
+
   const counter = ref(0)
 </script>
 ```
@@ -64,8 +69,7 @@ Now, let's use both components in the `app.vue` file:
 
 You should see the following result:
 
-::image{src="/img/vulmix-hmr-sample-1.png" alt="HMR Example"}
-::
+![HMR Example](/img/vulmix-hmr-sample-1.png)
 
 Now, let's increment the value and make some changes to the `ComponentOne.vue`. Notice how the counter value of the `ComponentTwo.vue` component is not reset and the changes to the `ComponentOne.vue` are reflected in real time:
 
